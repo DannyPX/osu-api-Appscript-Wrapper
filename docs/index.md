@@ -4,18 +4,18 @@ layout: home
 
 hero:
   name: "osu!api v2 Wrapper"
-  text: "Appscript Library"
-  tagline: Documentatation for the Google Appscript Library Wrapper for osu!api v2
+  text: "Apps Script Library"
+  tagline: Documentatation for the Google Apps Script Library Wrapper for osu!api v2
   actions:
     - theme: brand
       text: Getting Started
-      link: /markdown-examples#more
+      link: /endpoints/getting-started
     - theme: alt
       text: Docs
-      link: /api-examples
+      link: /endpoints/endpoints
     - theme: alt
       text: Snippets
-      link: /api-examples
+      link: /snippets/
 
 features:
   - icon: 🔥
@@ -25,3 +25,5 @@ features:
     title: Custom functions
     details: Create custom endpoints for the wrapper.
 ---
+
+> <Badge type="info">Google Appscript Script ID</Badge> `1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC`

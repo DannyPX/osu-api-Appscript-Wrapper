@@ -1,10 +1,28 @@
 {
+  "name": "osu-api-appscript-wrapper",
+  "private": true,
+  "version": "1",
+  "type": "module",
   "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^9.1.1",
+    "eslint-plugin-vue": "^9.25.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0",
     "vitepress": "^1.1.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lint": "eslint"
+  },
+  "main": "docs/.vitepress/index.md",
+  "repository": "https://github.com/DannyPX/osu-api-Appscript-Wrapper",
+  "author": "DannyPX",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-markdown": "^5.0.0"
   }
 }
