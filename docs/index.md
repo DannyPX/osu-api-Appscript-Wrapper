@@ -26,4 +26,17 @@ features:
     details: Create custom endpoints for the wrapper.
 ---
 
-> <Badge type="info">Google Appscript Script ID</Badge> `1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC`
+---
+### Quick to use
+<br />
+
+<Badge type="info">Google Appscript Script ID</Badge> `1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC`
+
+```js
+let api = osuAPILibrary
+
+function getFirstBeatmap() {
+  const clientCredentials = api.ClientCredentialsGrant(client_id, client_secret)
+  var firstBeatmap = api.getBeatmap(75, clientCredentials.access_token)
+}
+```
