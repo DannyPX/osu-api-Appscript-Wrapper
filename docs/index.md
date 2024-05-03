@@ -19,11 +19,27 @@ hero:
 
 features:
   - icon: 🔥
-    title: Easy to use
+    title: Easy to Use
     details: No extra code, just pure endpoints.
   - icon: 🛠️
-    title: Custom functions
-    details: Create custom endpoints for the wrapper.
+    title: Custom Functions
+    details: Possible to create custom endpoints for the wrapper.
+  - icon: 📝
+    title: Many Code Snippets
+    details: Tons of code snippets to use for your App Script Project for easier use.
 ---
 
-> <Badge type="info">Google Appscript Script ID</Badge> `1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC`
+---
+### Quick to use
+<br />
+
+<Badge type="info">Google Appscript Script ID</Badge> `1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC`
+
+```js
+let api = osuAPILibrary
+
+function getFirstBeatmap() {
+  const clientCredentials = api.ClientCredentialsGrant(client_id, client_secret)
+  var firstBeatmap = api.getBeatmap(75, clientCredentials.access_token)
+}
+```
