@@ -29,6 +29,10 @@ export default defineConfig({
           link: '/endpoints/endpoints',
         },
         {
+          text: 'Terms of Use',
+          link: 'https://osu.ppy.sh/docs/index.html#terms-of-use'
+        },
+        {
           text: 'Changelog',
           link: '/endpoints/changelog',
         },
@@ -43,6 +47,58 @@ export default defineConfig({
                 {
                   text: 'Client Credentials Grant',
                   link: '/endpoints/authentication/client-credentials-grant'
+                }
+              ]
+            },
+            {
+              text: 'Beatmap Packs',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Beatmap Packs',
+                  link: '/endpoints/beatmap-packs/get-beatmap-packs'
+                },
+                {
+                  text: 'Get Beatmap Pack',
+                  link: '/endpoints/beatmap-packs/get-beatmap-pack'
+                }
+              ]
+            },
+            {
+              text: 'Beatmaps',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Lookup Beatmap',
+                  link: '/endpoints/beatmaps/lookup-beatmap'
+                },
+                {
+                  text: 'Get a User Beatmap score',
+                  link: '/endpoints/beatmaps/get-a-user-beatmap-score'
+                },
+                {
+                  text: 'Get a User Beatmap scores',
+                  link: '/endpoints/beatmaps/get-a-user-beatmap-scores'
+                },
+                {
+                  text: 'Get Beatmap scores',
+                  link: '/endpoints/beatmaps/get-beatmap-scores'
+                },
+                {
+                  text: 'Get Beatmap scores <code>(non-legacy)</code>',
+                  link: '/endpoints/beatmaps/get-beatmap-scores-non-legacy'
+                },
+                {
+                  text: 'Get Beatmaps',
+                  link: '/endpoints/beatmaps/get-beatmaps'
+                },
+                {
+                  text: 'Get Beatmap',
+                  link: '/endpoints/beatmaps/get-beatmap'
+                },
+                {
+                  text: 'Get Beatmap Attributes',
+                  link: '/endpoints/beatmaps/get-beatmap-attributes'
                 }
               ]
             },
