@@ -9,6 +9,11 @@ export default defineConfig({
       provider: 'local'
     },
 
+    editLink: {
+      pattern: 'https://github.com/DannyPX/osu-api-Appscript-Wrapper/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/endpoints/' },

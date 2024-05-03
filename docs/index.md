@@ -19,11 +19,14 @@ hero:
 
 features:
   - icon: 🔥
-    title: Easy to use
+    title: Easy to Use
     details: No extra code, just pure endpoints.
   - icon: 🛠️
-    title: Custom functions
-    details: Create custom endpoints for the wrapper.
+    title: Custom Functions
+    details: Possible to create custom endpoints for the wrapper.
+  - icon: 📝
+    title: Many Code Snippets
+    details: Tons of code snippets to use for your App Script Project for easier use.
 ---
 
 ---
