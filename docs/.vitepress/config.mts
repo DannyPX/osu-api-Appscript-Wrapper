@@ -3,9 +3,19 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "osu!api Apps Script",
   description: "Apps Script Wrapper for osu!api V2",
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logosvg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+  ],
   themeConfig: {
     search: {
       provider: 'local'
+    },
+
+    logo: {
+      src: '/logo.svg',
+      width: 24,
+      height: 24
     },
 
     nav: [
@@ -310,6 +320,29 @@ export default defineConfig({
                 {
                   text: 'Custom Request',
                   link: '/endpoints/deprecated/custom-request'
+                }
+              ]
+            }
+          ]
+        },
+        {
+          text: 'Object Structures',
+          collapsed: true,
+          items: [
+            {
+              text: 'Types',
+              items: [
+                {
+                  text: 'BeatmapPackType',
+                  link: '/endpoints/types/beatmap-pack-type'
+                },
+                {
+                  text: 'Ruleset',
+                  link: '/endpoints/types/ruleset'
+                },
+                {
+                  text: 'Mod',
+                  link: '/endpoints/types/mod'
                 }
               ]
             }
