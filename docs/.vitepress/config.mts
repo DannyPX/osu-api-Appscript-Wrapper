@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "osu!api Apps Script Wrapper",
   description: "Apps Script Wrapper for osu!api V2",
+  base: "/osu-api-Appscript-Wrapper/",
   themeConfig: {
     search: {
       provider: 'local'
