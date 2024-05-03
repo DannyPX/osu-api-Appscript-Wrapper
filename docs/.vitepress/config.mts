@@ -139,6 +139,24 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Changelog',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Changelog Build',
+                  link: '/endpoints/changelog/get-changelog-build'
+                },
+                {
+                  text: 'Get Changelog Listing',
+                  link: '/endpoints/changelog/get-changelog-listing'
+                },
+                {
+                  text: 'Lookup Changelog Build',
+                  link: '/endpoints/changelog/lookup-changelog-build'
+                }
+              ]
+            },
+            {
               text: 'Deprecated',
               collapsed: true,
               items: [
