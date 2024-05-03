@@ -157,6 +157,148 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Events',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Events',
+                  link: '/endpoints/events/get-events'
+                }
+              ]
+            },
+            {
+              text: 'Forum',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Topic and Posts',
+                  link: '/endpoints/forum/get-topic-and-points'
+                }
+              ]
+            },
+            {
+              text: 'Home',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Search',
+                  link: '/endpoints/home/search'
+                }
+              ]
+            },
+            {
+              text: 'Multiplayer',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Match',
+                  link: '/endpoints/multiplayer/get-match'
+                },
+                {
+                  text: 'Get full Match <code><i>Custom</i></code>',
+                  link: '/endpoints/multiplayer/get-full-match'
+                },
+                {
+                  text: 'Get Room',
+                  link: '/endpoints/multiplayer/get-room'
+                },
+                {
+                  text: 'Get Scores',
+                  link: '/endpoints/multiplayer/get-scores'
+                },
+              ]
+            },
+            {
+              text: 'News',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get News Listing',
+                  link: '/endpoints/news/get-news-listing'
+                },
+                {
+                  text: 'Get News Post',
+                  link: '/endpoints/news/get-news-post'
+                }
+              ]
+            },
+            {
+              text: 'Comments',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Comments',
+                  link: '/endpoints/comments/get-comments'
+                },
+                {
+                  text: 'Get a comment',
+                  link: '/endpoints/comments/get-a-comment'
+                }
+              ]
+            },
+            {
+              text: 'Ranking',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Kudosu Ranking',
+                  link: '/endpoints/ranking/get-kudosu-ranking'
+                },
+                {
+                  text: 'Get Ranking',
+                  link: '/endpoints/ranking/get-ranking'
+                },
+                {
+                  text: 'Get Full Ranking <code><i>Custom</i></code>',
+                  link: '/endpoints/ranking/get-full-ranking'
+                },
+                {
+                  text: 'Get Spotlights',
+                  link: '/endpoints/ranking/get-spotlights'
+                }
+              ]
+            },
+            {
+              text: 'Users',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get User Kudosu',
+                  link: '/endpoints/users/get-user-kudosu'
+                },
+                {
+                  text: 'Get User Scores',
+                  link: '/endpoints/users/get-user-scores'
+                },
+                {
+                  text: 'Get User Beatmaps',
+                  link: '/endpoints/users/get-user-beatmaps'
+                },
+                {
+                  text: 'Get User Recent Activity',
+                  link: '/endpoints/users/get-user-recent-activity'
+                },
+                {
+                  text: 'Get User',
+                  link: '/endpoints/users/get-user'
+                },
+                {
+                  text: 'Get Users',
+                  link: '/endpoints/users/get-users'
+                }
+              ]
+            },
+            {
+              text: 'Wiki',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Wiki Page',
+                  link: '/endpoints/wiki/get-wiki-page'
+                }
+              ]
+            },
+            {
               text: 'Deprecated',
               collapsed: true,
               items: [
