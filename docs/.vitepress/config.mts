@@ -121,6 +121,24 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Beatmapsets',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Search Beatmapsets',
+                  link: '/endpoints/beatmapsets/search-beatmapsets'
+                },
+                {
+                  text: 'Lookup Beatmapsets',
+                  link: '/endpoints/beatmapsets/lookup-beatmapests'
+                },
+                {
+                  text: 'Get Beatmapset',
+                  link: '/endpoints/beatmapsets/get-beatmapset'
+                }
+              ]
+            },
+            {
               text: 'Deprecated',
               collapsed: true,
               items: [
