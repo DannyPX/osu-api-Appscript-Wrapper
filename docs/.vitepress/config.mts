@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "osu!api Appscript",
   description: "Appscript Wrapper for osu!api V2",
+  base: "/osu-api-Appscript-Wrapper/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
