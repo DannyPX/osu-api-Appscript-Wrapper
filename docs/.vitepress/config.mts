@@ -11,7 +11,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/endpoints/' },
-      { text: 'Snippets', link: '/snippets/' }
+      { text: 'Snippets', link: '/snippets/' },
+      { text: 'V25', items: [{ text: 'Changelog', link: '/endpoints/changelog' }]}
     ],
 
     sidebar: {
