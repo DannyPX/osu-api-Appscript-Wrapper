@@ -16,9 +16,9 @@ outline: deep
 
 ## Quick Example
 
-### `Code.gs`
+::: code-group
 
-```js
+```js [Code.gs]
 let api = osuAPILibrary
 
 function getFirstBeatmap() {
@@ -34,10 +34,11 @@ function getFirstBeatmap() {
   var firstBeatmap = api.getBeatmap(75, clientCredentials.access_token)
 }
 ```
+:::
 
-### Output `firstBeatmap`
+::: code-group
 
-```js
+```js [console.log(firstBeatmap)]
 {
     "beatmapset_id": 1,
     "difficulty_rating": 2.57,
@@ -68,3 +69,4 @@ function getFirstBeatmap() {
     ...
 }
 ```
+:::
