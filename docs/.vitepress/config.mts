@@ -103,6 +103,24 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Beatmapset Discussions',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Get Beatmapset Discussion Posts',
+                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussion-posts'
+                },
+                {
+                  text: 'Get Beatmapset Discussion Votes',
+                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussion-votes'
+                },
+                {
+                  text: 'Get Beatmapset Discussions',
+                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussions'
+                }
+              ]
+            },
+            {
               text: 'Deprecated',
               collapsed: true,
               items: [
