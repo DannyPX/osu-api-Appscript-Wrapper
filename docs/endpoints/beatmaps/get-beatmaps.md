@@ -28,9 +28,7 @@ Access Token.
 
 ::: code-group
 ```js [code.gs]
-function getFunction() {
 
-}
 ```
 :::
 

@@ -37,9 +37,7 @@ Parameter 2
 
 ::: code-group
 ```js [code.gs]
-function getFunction() {
 
-}
 ```
 :::
 

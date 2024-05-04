@@ -4,7 +4,7 @@ outline: deep
 
 # Client Credentials Grant <Badge type="tip" text="POST"/>
 
-## `ClientCredentialsGrand`
+## `ClientCredentialsGrant`
 
 The client credential flow provides a way for developers to get access tokens that do not have associated user permissions; as such, these tokens are considered as guest users.
 
@@ -12,12 +12,12 @@ The client credential flow provides a way for developers to get access tokens th
 
 ## Usage
 
-`api.ClientCredentialsGrand(client_id, client_secret)`
+`api.ClientCredentialsGrant(client_id, client_secret)`
 
 ### Parameters
 
 `client_id` <small>String</small><br>
-The Client ID you received when you registered.
+The Client ID you received when you [registered](https://osu.ppy.sh/home/account/edit#new-oauth-application).
 
 `client_secret` <small>String</small><br>
 The client secret of your application.
@@ -33,7 +33,7 @@ const client_id = ***
 const client_secret = ***
 
 // Call Function
-var response = api.ClientCredentialsGrand(client_id, client_secret)
+var response = api.ClientCredentialsGrant(client_id, client_secret)
 
 // Output
 console.log(response)

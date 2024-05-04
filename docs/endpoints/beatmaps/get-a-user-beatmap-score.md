@@ -40,9 +40,7 @@ An array of matching Mods, or none
 
 ::: code-group
 ```js [code.gs]
-function getFunction() {
 
-}
 ```
 :::
 

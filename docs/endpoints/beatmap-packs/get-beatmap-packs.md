@@ -22,7 +22,7 @@ Returns a list of beatmap packs.
 `token` <small>String</small><br>
 Access Token.
 
-`cursor_string` <small>String</small> <Badge type="danger" text="not implemented" /><br>
+`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
 CursorString for pagination.
 
 ## Example
@@ -31,9 +31,7 @@ CursorString for pagination.
 
 ::: code-group
 ```js [code.gs]
-function getFunction() {
 
-}
 ```
 :::
 

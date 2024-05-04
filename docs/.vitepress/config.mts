@@ -339,6 +339,7 @@ export default defineConfig({
           items: [
             {
               text: 'Types',
+              collapsed: true,
               items: [
                 {
                   text: 'BeatmapPackType',
@@ -351,8 +352,44 @@ export default defineConfig({
                 {
                   text: 'Mod',
                   link: '/endpoints/types/mod'
+                },
+                {
+                  text: 'BeatmapsetStatus',
+                  link: '/endpoints/types/beatmapset-status'
+                },
+                {
+                  text: 'DiscussionScore',
+                  link: '/endpoints/types/discussion-score'
+                },
+                {
+                  text: 'DiscussionSort',
+                  link: '/endpoints/types/discussion-sort'
+                },
+                {
+                  text: 'DiscussionTypes',
+                  link: '/endpoints/types/discussion-types'
+                },
+                {
+                  text: 'MessageTypes',
+                  link: '/endpoints/types/message-types'
                 }
               ]
+            }
+          ]
+        }
+      ],
+      '/snippets/': [
+        {
+          text: 'Recommended Files',
+          link: '/snippets/'
+        },
+        {
+          text: 'Snippets',
+          collapsed: true,
+          items: [
+            {
+              text: 'Types.gs',
+              link: '/snippets/snippets/types'
             }
           ]
         }

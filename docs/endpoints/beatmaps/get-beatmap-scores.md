@@ -40,9 +40,7 @@ Beatmap score ranking type
 
 ::: code-group
 ```js [code.gs]
-function getFunction() {
 
-}
 ```
 :::
 
