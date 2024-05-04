@@ -1,12 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "osu!api Apps Script Wrapper",
+  title: "osu!api Apps Script",
   description: "Apps Script Wrapper for osu!api V2",
+
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logosvg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/osu-api-Appscript-Wrapper/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/osu-api-Appscript-Wrapper/logo.png' }],
   ],
+
   base: "/osu-api-Appscript-Wrapper/",
   themeConfig: {
     search: {
@@ -18,7 +20,7 @@ export default defineConfig({
       width: 24,
       height: 24
     },
-    
+
     editLink: {
       pattern: 'https://github.com/DannyPX/osu-api-Appscript-Wrapper/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
@@ -366,4 +368,3 @@ export default defineConfig({
     }
   }
 })
-

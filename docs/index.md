@@ -33,7 +33,7 @@ features:
 ### Quick to use
 <br />
 
-<Badge type="info">Google Appscript Script ID</Badge> `1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC`
+<Badge type="info">Google Apps Script Script ID</Badge> `1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC`
 
 ```js
 let api = osuAPILibrary
