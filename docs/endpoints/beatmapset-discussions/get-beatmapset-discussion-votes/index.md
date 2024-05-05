@@ -28,10 +28,10 @@ Search result page.
 `receiver` <small>String</small> <Badge type="tip" text="optional" /><br>
 The ID of the User receiving the votes.
 
-`score` <small>[DiscussionScore](../types/discussion-score)</small> <Badge type="tip" text="optional" /><br>
+`score` <small>[DiscussionScore](../../types/discussion-score)</small> <Badge type="tip" text="optional" /><br>
 `Up` for up vote and `Down` for down vote.
 
-`sort` <small>[DiscussionSort](../types/discussion-sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
 
 `user` <small>String</small> <Badge type="tip" text="optional" /><br>
@@ -52,3 +52,5 @@ Access Token.
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->

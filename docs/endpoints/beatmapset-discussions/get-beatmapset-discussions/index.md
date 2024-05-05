@@ -37,7 +37,7 @@ Maximum number of results.
 `page` <small>Integer</small> <Badge type="tip" text="optional" /><br>
 Search result page.
 
-`sort` <small>[DiscussionSort](../types/discussion-sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
 
 `user` <small>String</small> <Badge type="tip" text="optional" /><br>
@@ -61,3 +61,5 @@ CursorString for pagination.
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->

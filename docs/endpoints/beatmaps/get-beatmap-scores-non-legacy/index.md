@@ -19,7 +19,7 @@ Returns the top scores for a beatmap.
 `beatmapId` <small>String</small><br>
 The ID of a beatmap.
 
-`mode` <small>[Ruleset](../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
+`mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
 `mods` <small>String</small> <Badge type="tip" text="optional" /><br>
@@ -40,3 +40,5 @@ Parameter 2
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->

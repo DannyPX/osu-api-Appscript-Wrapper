@@ -16,7 +16,7 @@ Returns a list of beatmap packs.
 
 ### Parameters
 
-`type` <small>[BeatmapPackType](../types/beatmap-pack-type)</small> <Badge type="tip" text="optional" /><br> 
+`type` <small>[BeatmapPackType](../../types/beatmap-pack-type)</small> <Badge type="tip" text="optional" /><br> 
 **BeatmapPackType** of the beatmap packs to be returned. Defaults to `standard`.
 
 `token` <small>String</small><br>
@@ -34,3 +34,5 @@ CursorString for pagination.
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->

@@ -25,10 +25,10 @@ Maximum number of results.
 `page` <small>Int</small> <Badge type="tip" text="optional" /><br>
 Search result page.
 
-`sort` <small>[DiscussionSort](../types/discussion-sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
 
-`types` <small>[DiscussionTypes](../types/discussion-types)</small> <Badge type="tip" text="optional" /><br>
+`types` <small>[DiscussionTypes](../../types/discussion-types)</small> <Badge type="tip" text="optional" /><br>
 `First`, `Reply`, `System` are the valid values. Defaults to `Reply`.
 
 `user` <small>String</small> <Badge type="tip" text="optional" /><br>
@@ -49,3 +49,5 @@ Access Token.
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->

@@ -25,7 +25,7 @@ The ID of a beatmap.
 `legacy_only` <small>Int</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to 0.
 
-`mode` <small>[Ruleset](../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
+`mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
 `token` <small>String</small><br>
@@ -42,3 +42,5 @@ Access Token.
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->

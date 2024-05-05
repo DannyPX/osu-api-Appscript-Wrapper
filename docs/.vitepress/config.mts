@@ -149,7 +149,7 @@ export default defineConfig({
                 },
                 {
                   text: 'Lookup Beatmapsets',
-                  link: '/endpoints/beatmapsets/lookup-beatmapests/'
+                  link: '/endpoints/beatmapsets/lookup-beatmapsets/'
                 },
                 {
                   text: 'Get Beatmapset',

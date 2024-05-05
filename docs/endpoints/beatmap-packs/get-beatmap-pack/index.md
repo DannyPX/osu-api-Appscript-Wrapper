@@ -34,3 +34,5 @@ Access Token.
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->

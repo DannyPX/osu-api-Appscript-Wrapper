@@ -31,3 +31,5 @@ Parameter 2
 <<< ./output.json
 
 ## Response Format
+
+<!--@include: ./response.md-->
