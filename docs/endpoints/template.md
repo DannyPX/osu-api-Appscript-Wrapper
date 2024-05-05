@@ -19,7 +19,7 @@ Description
 `param_1` <small>String</small><br>
 Parameter 1
 
-`param_2` <small>Int</small><br>
+`param_2` <small>Number</small><br>
 Parameter 2
 
 ## Example

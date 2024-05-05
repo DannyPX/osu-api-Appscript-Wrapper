@@ -22,7 +22,7 @@ Either `All`, `User`, or `WikiPage`. Default is `All`.
 `query` <small>String</small><br>
 Search keyword.
 
-`page` <small>Int</small><br>
+`page` <small>Number</small><br>
 Search result page. Ignored for mode `All`.
 
 `token` <small>String</small><br>

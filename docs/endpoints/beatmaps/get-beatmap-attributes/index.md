@@ -25,10 +25,10 @@ Mod combination. Can be either a bitset of mods, array of mod acronyms, or array
 `ruleset` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
-`ruleset_id` <small>Int</small> <Badge type="tip" text="optional" /><br>
+`ruleset_id` <small>Number</small> <Badge type="tip" text="optional" /><br>
 The same as `ruleset` but in integer form.
 
-`token` <small>Int</small><br>
+`token` <small>Number</small><br>
 Access Token.
 
 ## Example

@@ -58,7 +58,7 @@ function getUserKudosu_(userId, limit, offset, token) {
  * ex. `OsuAPI.ENUM_GAMEMODES.CATCH`
  * @param {Int} legacy_only integer Whether or not to exclude lazer scores. Defaults to 0.
  * @param {Int} limit `Optional (Leave "" if not used)` Maximum number of results.
- * @param {Int} offset `Optional (Leave "" if not used)` Result offset for pagination.
+ * @param {String} offset `Optional (Leave "" if not used)` Result offset for pagination.
  * @param {String} token Access Token.
  * @return {ScoresArray2}
  */
@@ -98,7 +98,6 @@ var getUserBeatmaps = (userId, beatmapType, limit, offset, token) => getUserBeat
 
 function getUserBeatmaps_(userId, beatmapType, limit, offset, token) {
   let queryParameters = queryBuilder_([
-    parseParam_("legacy_only", legacy_only),
     parseParam_("limit", limit),
     parseParam_("offset", offset)
   ])

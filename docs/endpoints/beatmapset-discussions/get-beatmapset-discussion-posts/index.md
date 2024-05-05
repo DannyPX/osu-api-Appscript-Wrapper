@@ -19,10 +19,10 @@ Returns the posts of beatmapset discussions.
 `beatmapset_discussion_id` <small>String</small> <Badge type="tip" text="optional" /><br>
 ID of the BeatmapsetDiscussion
 
-`limit` <small>Int</small> <Badge type="tip" text="optional" /><br>
+`limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
-`page` <small>Int</small> <Badge type="tip" text="optional" /><br>
+`page` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Search result page.
 
 `sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>

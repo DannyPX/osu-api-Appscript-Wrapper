@@ -265,7 +265,7 @@ export default defineConfig({
                 },
                 {
                   text: 'Get Ranking',
-                  link: '/endpoints/ranking/get-ranking'
+                  link: '/endpoints/ranking/get-ranking/'
                 },
                 {
                   text: 'Get Full Ranking <code><i>Custom</i></code>',

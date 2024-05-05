@@ -22,7 +22,7 @@ The ID of an osu! user.
 `beatmapId` <small>String</small><br>
 The ID of a beatmap.
 
-`legacy_only` <small>Int</small> <Badge type="tip" text="optional" /><br>
+`legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to 0.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>

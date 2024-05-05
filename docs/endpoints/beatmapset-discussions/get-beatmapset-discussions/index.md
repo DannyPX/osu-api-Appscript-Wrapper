@@ -25,7 +25,7 @@ ID of the Beatmapset.
 `beatmapset_status` <small>[BeatmapsetStatus](../types/beatmapset-status)</small> <Badge type="tip" text="optional" /><br>
 One of `All`, `Ranked`, `Qualified`, `Disqualified`, `NeverQualified`. Defaults to `All`.
 
-`limit` <small>Int</small> <Badge type="tip" text="optional" /><br>
+`limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
 `message_types` <small>[MessageTypes](../types/message-types)</small> <Badge type="tip" text="optional" /><br>
