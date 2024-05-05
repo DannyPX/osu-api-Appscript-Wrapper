@@ -25,17 +25,9 @@ Parameter 2
 ## Example
 
 ### Code
-
-<<<
+<<< ./code.js
 
 ### Output
-
-::: code-group
-```json [console]
-{
-
-}
-```
-:::
+<<< ./output.json
 
 ## Response Format

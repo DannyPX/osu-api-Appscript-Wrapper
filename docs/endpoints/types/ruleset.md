@@ -13,7 +13,7 @@ outline: deep
 | `osu`    | osu!standard |
 | `taiko`  | osu!taiko    |
 
-## Example Snippet
+## Snippet
 
 ::: code-group
 
@@ -30,3 +30,4 @@ console.log(Ruleset.Standard) // osu
 ```
 
 :::
+Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)

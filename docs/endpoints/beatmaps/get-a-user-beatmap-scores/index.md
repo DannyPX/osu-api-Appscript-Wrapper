@@ -35,20 +35,10 @@ Access Token.
 
 ### Code
 
-::: code-group
-```js [code.gs]
-
-```
-:::
+### Code
+<<< ./code.js
 
 ### Output
-
-::: code-group
-```json [console]
-{
-
-}
-```
-:::
+<<< ./output.json
 
 ## Response Format

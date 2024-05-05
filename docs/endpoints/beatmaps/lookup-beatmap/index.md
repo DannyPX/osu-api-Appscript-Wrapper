@@ -31,21 +31,9 @@ Access Token.
 ## Example
 
 ### Code
-
-::: code-group
-```js [code.gs]
-
-```
-:::
+<<< ./code.js
 
 ### Output
-
-::: code-group
-```json [console]
-{
-
-}
-```
-:::
+<<< ./output.json
 
 ## Response Format

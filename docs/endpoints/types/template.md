@@ -10,7 +10,7 @@ outline: deep
 |----------|----------|
 | Key      | Value    |
 
-## Example Snippet
+## Snippet
 
 ::: code-group
 

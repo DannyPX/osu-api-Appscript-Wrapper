@@ -11,7 +11,7 @@ outline: deep
 | `1`      | Up          |
 | `-1`     | Down        |
 
-## Example Snippet
+## Snippet
 
 ::: code-group
 
@@ -26,3 +26,4 @@ console.log(DiscussionScore.Up) // 1
 ```
 
 :::
+Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)

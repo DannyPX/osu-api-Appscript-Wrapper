@@ -65,7 +65,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'Client Credentials Grant',
-                  link: '/endpoints/authentication/client-credentials-grant'
+                  link: '/endpoints/authentication/client-credentials-grant/'
                 }
               ]
             },
@@ -75,11 +75,11 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Beatmap Packs',
-                  link: '/endpoints/beatmap-packs/get-beatmap-packs'
+                  link: '/endpoints/beatmap-packs/get-beatmap-packs/'
                 },
                 {
                   text: 'Get Beatmap Pack',
-                  link: '/endpoints/beatmap-packs/get-beatmap-pack'
+                  link: '/endpoints/beatmap-packs/get-beatmap-pack/'
                 }
               ]
             },
@@ -89,35 +89,35 @@ export default defineConfig({
               items: [
                 {
                   text: 'Lookup Beatmap',
-                  link: '/endpoints/beatmaps/lookup-beatmap'
+                  link: '/endpoints/beatmaps/lookup-beatmap/'
                 },
                 {
                   text: 'Get a User Beatmap score',
-                  link: '/endpoints/beatmaps/get-a-user-beatmap-score'
+                  link: '/endpoints/beatmaps/get-a-user-beatmap-score/'
                 },
                 {
                   text: 'Get a User Beatmap scores',
-                  link: '/endpoints/beatmaps/get-a-user-beatmap-scores'
+                  link: '/endpoints/beatmaps/get-a-user-beatmap-scores/'
                 },
                 {
                   text: 'Get Beatmap scores',
-                  link: '/endpoints/beatmaps/get-beatmap-scores'
+                  link: '/endpoints/beatmaps/get-beatmap-scores/'
                 },
                 {
                   text: 'Get Beatmap scores <code>(non-legacy)</code>',
-                  link: '/endpoints/beatmaps/get-beatmap-scores-non-legacy'
+                  link: '/endpoints/beatmaps/get-beatmap-scores-non-legacy/'
                 },
                 {
                   text: 'Get Beatmaps',
-                  link: '/endpoints/beatmaps/get-beatmaps'
+                  link: '/endpoints/beatmaps/get-beatmaps/'
                 },
                 {
                   text: 'Get Beatmap',
-                  link: '/endpoints/beatmaps/get-beatmap'
+                  link: '/endpoints/beatmaps/get-beatmap/'
                 },
                 {
                   text: 'Get Beatmap Attributes',
-                  link: '/endpoints/beatmaps/get-beatmap-attributes'
+                  link: '/endpoints/beatmaps/get-beatmap-attributes/'
                 }
               ]
             },
@@ -127,15 +127,15 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Beatmapset Discussion Posts',
-                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussion-posts'
+                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussion-posts/'
                 },
                 {
                   text: 'Get Beatmapset Discussion Votes',
-                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussion-votes'
+                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussion-votes/'
                 },
                 {
                   text: 'Get Beatmapset Discussions',
-                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussions'
+                  link: '/endpoints/beatmapset-discussions/get-beatmapset-discussions/'
                 }
               ]
             },
@@ -145,15 +145,15 @@ export default defineConfig({
               items: [
                 {
                   text: 'Search Beatmapsets',
-                  link: '/endpoints/beatmapsets/search-beatmapsets'
+                  link: '/endpoints/beatmapsets/search-beatmapsets/'
                 },
                 {
                   text: 'Lookup Beatmapsets',
-                  link: '/endpoints/beatmapsets/lookup-beatmapests'
+                  link: '/endpoints/beatmapsets/lookup-beatmapests/'
                 },
                 {
                   text: 'Get Beatmapset',
-                  link: '/endpoints/beatmapsets/get-beatmapset'
+                  link: '/endpoints/beatmapsets/get-beatmapset/'
                 }
               ]
             },
@@ -163,15 +163,15 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Changelog Build',
-                  link: '/endpoints/changelog/get-changelog-build'
+                  link: '/endpoints/changelog/get-changelog-build/'
                 },
                 {
                   text: 'Get Changelog Listing',
-                  link: '/endpoints/changelog/get-changelog-listing'
+                  link: '/endpoints/changelog/get-changelog-listing/'
                 },
                 {
                   text: 'Lookup Changelog Build',
-                  link: '/endpoints/changelog/lookup-changelog-build'
+                  link: '/endpoints/changelog/lookup-changelog-build/'
                 }
               ]
             },
@@ -181,7 +181,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Events',
-                  link: '/endpoints/events/get-events'
+                  link: '/endpoints/events/get-events/'
                 }
               ]
             },
@@ -191,7 +191,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Topic and Posts',
-                  link: '/endpoints/forum/get-topic-and-points'
+                  link: '/endpoints/forum/get-topic-and-points/'
                 }
               ]
             },
@@ -201,7 +201,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'Search',
-                  link: '/endpoints/home/search'
+                  link: '/endpoints/home/search/'
                 }
               ]
             },
@@ -211,19 +211,19 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Match',
-                  link: '/endpoints/multiplayer/get-match'
+                  link: '/endpoints/multiplayer/get-match/'
                 },
                 {
                   text: 'Get full Match <code><i>Custom</i></code>',
-                  link: '/endpoints/multiplayer/get-full-match'
+                  link: '/endpoints/multiplayer/get-full-match/'
                 },
                 {
                   text: 'Get Room',
-                  link: '/endpoints/multiplayer/get-room'
+                  link: '/endpoints/multiplayer/get-room/'
                 },
                 {
                   text: 'Get Scores',
-                  link: '/endpoints/multiplayer/get-scores'
+                  link: '/endpoints/multiplayer/get-scores/'
                 },
               ]
             },
@@ -233,11 +233,11 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get News Listing',
-                  link: '/endpoints/news/get-news-listing'
+                  link: '/endpoints/news/get-news-listing/'
                 },
                 {
                   text: 'Get News Post',
-                  link: '/endpoints/news/get-news-post'
+                  link: '/endpoints/news/get-news-post/'
                 }
               ]
             },
@@ -247,11 +247,11 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Comments',
-                  link: '/endpoints/comments/get-comments'
+                  link: '/endpoints/comments/get-comments/'
                 },
                 {
                   text: 'Get a comment',
-                  link: '/endpoints/comments/get-a-comment'
+                  link: '/endpoints/comments/get-a-comment/'
                 }
               ]
             },
@@ -261,7 +261,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Kudosu Ranking',
-                  link: '/endpoints/ranking/get-kudosu-ranking'
+                  link: '/endpoints/ranking/get-kudosu-ranking/'
                 },
                 {
                   text: 'Get Ranking',
@@ -269,11 +269,11 @@ export default defineConfig({
                 },
                 {
                   text: 'Get Full Ranking <code><i>Custom</i></code>',
-                  link: '/endpoints/ranking/get-full-ranking'
+                  link: '/endpoints/ranking/get-full-ranking/'
                 },
                 {
                   text: 'Get Spotlights',
-                  link: '/endpoints/ranking/get-spotlights'
+                  link: '/endpoints/ranking/get-spotlights/'
                 }
               ]
             },
@@ -283,27 +283,27 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get User Kudosu',
-                  link: '/endpoints/users/get-user-kudosu'
+                  link: '/endpoints/users/get-user-kudosu/'
                 },
                 {
                   text: 'Get User Scores',
-                  link: '/endpoints/users/get-user-scores'
+                  link: '/endpoints/users/get-user-scores/'
                 },
                 {
                   text: 'Get User Beatmaps',
-                  link: '/endpoints/users/get-user-beatmaps'
+                  link: '/endpoints/users/get-user-beatmaps/'
                 },
                 {
                   text: 'Get User Recent Activity',
-                  link: '/endpoints/users/get-user-recent-activity'
+                  link: '/endpoints/users/get-user-recent-activity/'
                 },
                 {
                   text: 'Get User',
-                  link: '/endpoints/users/get-user'
+                  link: '/endpoints/users/get-user/'
                 },
                 {
                   text: 'Get Users',
-                  link: '/endpoints/users/get-users'
+                  link: '/endpoints/users/get-users/'
                 }
               ]
             },
@@ -313,7 +313,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Wiki Page',
-                  link: '/endpoints/wiki/get-wiki-page'
+                  link: '/endpoints/wiki/get-wiki-page/'
                 }
               ]
             },
@@ -323,11 +323,11 @@ export default defineConfig({
               items: [
                 {
                   text: 'Get Token',
-                  link: '/endpoints/deprecated/get-token'
+                  link: '/endpoints/deprecated/get-token/'
                 },
                 {
                   text: 'Custom Request',
-                  link: '/endpoints/deprecated/custom-request'
+                  link: '/endpoints/deprecated/custom-request/'
                 }
               ]
             }

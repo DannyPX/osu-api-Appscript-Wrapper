@@ -15,7 +15,7 @@ outline: deep
 | `hype`        | Hype        |
 | `review`      | Review      |
 
-## Example Snippet
+## Exale Snippet
 
 ::: code-group
 
@@ -34,3 +34,4 @@ console.log(Suggestion.suggestion) // value
 ```
 
 :::
+Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)

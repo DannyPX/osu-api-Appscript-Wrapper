@@ -25,32 +25,10 @@ The client secret of your application.
 ## Example
 
 ### Code
-
-::: code-group
-```js [code.gs]
-// Params
-const client_id = ***
-const client_secret = ***
-
-// Call Function
-var response = api.ClientCredentialsGrant(client_id, client_secret)
-
-// Output
-console.log(response)
-```
-:::
+<<< ./code.js
 
 ### Output
-
-::: code-group
-```json [console]
-{
-    "access_token": "verylongstring",
-    "expires_in": 86400,
-    "token_type": "Bearer"
-}
-```
-:::
+<<< ./output.json
 
 ## Response Format
 

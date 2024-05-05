@@ -4,7 +4,7 @@ outline: deep
 
 # BeatmapsetStatus
 
-## Available beatmapset statuses'
+## Available beatmapset statuses
 
 | Name              | Description     |
 |-------------------|-----------------|
@@ -14,7 +14,7 @@ outline: deep
 | `disqualified`    | Disqualified    |
 | `never_qualified` | Never Qualified |
 
-## Example Snippet
+## Snippet
 
 ::: code-group
 
@@ -32,3 +32,4 @@ console.log(BeatmapsetStatus.Ranked) // ranked
 ```
 
 :::
+Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)

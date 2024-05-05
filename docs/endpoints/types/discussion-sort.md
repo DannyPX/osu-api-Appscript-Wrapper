@@ -11,7 +11,7 @@ outline: deep
 | `id_desc` | Descending  |
 | `id_asc`  | Ascending   |
 
-## Example Snippet
+## Snippet
 
 ::: code-group
 
@@ -26,3 +26,4 @@ console.log(DiscussionSort.Descending) // id_desc
 ```
 
 :::
+Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)

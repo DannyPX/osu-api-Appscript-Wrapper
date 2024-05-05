@@ -19,7 +19,7 @@ Returns difficulty attributes of beatmap with specific mode and mods combination
 `beatmapId` <small>String</small><br>
 The ID of a beatmap.
 
-`mods` <small>Int|String[]|[Mod](../types/ruleset)[]</small> <Badge type="tip" text="optional" /><br>
+`mods` <small>Int|String[]|[Mod](../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
 Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods.
 
 `ruleset` <small>[Ruleset](../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
@@ -34,21 +34,9 @@ Access Token.
 ## Example
 
 ### Code
-
-::: code-group
-```js [code.gs]
-
-```
-:::
+<<< ./code.js
 
 ### Output
-
-::: code-group
-```json [console]
-{
-
-}
-```
-:::
+<<< ./output.json
 
 ## Response Format

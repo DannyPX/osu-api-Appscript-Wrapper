@@ -16,7 +16,7 @@ outline: deep
 | `theme`      | T   | Theme           |
 | `artist`     | A   | Artist/Album    |
 
-## Example Snippet
+## Snippet
 
 ::: code-group
 
@@ -36,3 +36,4 @@ console.log(BeatmapPackType.Tournament) // tournament
 ```
 
 :::
+Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)

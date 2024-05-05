@@ -31,7 +31,7 @@ outline: deep
 | `SV2`  | ScoreV2         |
 | `TP`   | Target Practice |
 
-## Example Snippet
+## Snippet
 
 ::: code-group
 
@@ -74,3 +74,4 @@ console.log(Mod.Hard_Rock) // HR
 ```
 
 :::
+Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)

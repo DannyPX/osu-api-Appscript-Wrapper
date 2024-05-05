@@ -8,7 +8,7 @@ outline: deep
 
 Returns the top scores for a beatmap.
 
-<small>osu!api documentation: https://osu.ppy.sh/docs/function</small>
+<small>osu!api documentation: https://osu.ppy.sh/docs/index.html#get-beatmap-scores-non-legacy</small>
 
 ## Usage
 
@@ -34,21 +34,9 @@ Parameter 2
 ## Example
 
 ### Code
-
-::: code-group
-```js [code.gs]
-
-```
-:::
+<<< ./code.js
 
 ### Output
-
-::: code-group
-```json [console]
-{
-
-}
-```
-:::
+<<< ./output.json
 
 ## Response Format
