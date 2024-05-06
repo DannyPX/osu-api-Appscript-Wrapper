@@ -35,7 +35,7 @@ Sort option as defined in [CommentSort](https://osu.ppy.sh/docs/index.html#comme
 Access Tokens.
 
 `cursor` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
-Pagination option. See [CommentSort](../../types/comment-sort) for detail. The format follows [Cursor](https://osu.ppy.sh/docs/index.html#cursor) except it's not currently included in the response.
+Pagination option. See [CommentSort](https://osu.ppy.sh/docs/index.html#commentsort) for detail. The format follows [Cursor](https://osu.ppy.sh/docs/index.html#cursor) except it's not currently included in the response.
 
 ## Example
 

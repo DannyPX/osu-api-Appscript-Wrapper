@@ -22,13 +22,13 @@ ID of the Beatmap.
 `beatmapset_id` <small>String</small> <Badge type="tip" text="optional" /><br>
 The ID of the Beatmapset.
 
-`beatmapset_status` <small>[BeatmapsetStatus](../types/beatmapset-status)</small> <Badge type="tip" text="optional" /><br>
+`beatmapset_status` <small>[BeatmapsetStatus](../../types/beatmapset-status)</small> <Badge type="tip" text="optional" /><br>
 One of `All`, `Ranked`, `Qualified`, `Disqualified`, `NeverQualified`. Defaults to `All`.
 
 `limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
-`message_types` <small>[MessageTypes](../types/message-types)</small> <Badge type="tip" text="optional" /><br>
+`message_types` <small>[MessageTypes](../../types/message-types)</small> <Badge type="tip" text="optional" /><br>
 `Suggestion`, `Problem`, `MapperNote`, `Praise`, `Hype`, `Review`. Blank defaults to all types.
 
 `only_unresolved` <small>Boolean</small> <Badge type="tip" text="optional" /><br>
