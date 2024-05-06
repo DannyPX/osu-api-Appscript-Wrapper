@@ -17,7 +17,7 @@ This endpoint returns the detail of specified user.
 ### Parameters
 
 `userId` <small>String</small><br>
-The ID of an user.
+The ID of the user.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 Ruleset. User default mode will be used if not specified.

@@ -17,7 +17,7 @@ Returns the room.
 ### Parameters
 
 `roomId` <small>String</small><br>
-ID of the room.
+The ID of the room.
 
 `token` <small>String</small><br>
 Access Token.

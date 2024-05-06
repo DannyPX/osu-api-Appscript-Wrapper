@@ -20,7 +20,7 @@ Returns the match.
 The ID of the match.
 
 `before` <small>Number</small> <Badge type="tip" text="optional" /><br>
-Result before event id.
+Result before event `id`.
 
 `limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.

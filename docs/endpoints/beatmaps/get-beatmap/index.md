@@ -17,7 +17,7 @@ Gets beatmap data for the specified beatmap ID.
 ### Parameters
 
 `beatmapId` <small>String</small><br>
-The ID of a beatmap.
+The ID of the beatmap.
 
 `token` <small>String</small><br>
 Access Token.

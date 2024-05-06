@@ -17,7 +17,7 @@ Returns the votes given to beatmapset discussions.
 ### Parameters
 
 `beatmapset_discussion_id` <small>String</small> <Badge type="tip" text="optional" /><br>
-ID of the BeatmapsetDiscussion
+The ID of the BeatmapsetDiscussion
 
 `limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.

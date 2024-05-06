@@ -17,7 +17,7 @@ Returns the top scores for a beatmap.
 ### Parameters
 
 `beatmapId` <small>String</small><br>
-The ID of a beatmap.
+The ID of the beatmap.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
@@ -29,7 +29,7 @@ Mod combination. Can be either a bitset of mods, array of mod acronyms, or array
 Beatmap score ranking type.
 
 `token` <small>String</small> <Badge type="tip" text="optional" /><br>
-Parameter 2
+Access Token.
 
 ## Example
 

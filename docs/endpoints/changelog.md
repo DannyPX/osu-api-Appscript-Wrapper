@@ -11,7 +11,7 @@ outline: deep
 ## V26 <Badge type="warning" text="WIP" /> <Badge type="info" text="2024.506.0" /> 
 - <span style="font-size:1.5em;">:tada: Added Documentation!</span>
 - Fixed parameter naming to match docs.
-- Fixed comments to match docs and be consistent.
+- Added the other parameters of `ClientCredentialsGrant`
 
 ## V25 <Badge type="tip" text="Stable" /> <Badge type="info" text="2024.306.0" /> 
 - Added endpoints for **Beatmap Packs**, **Beatmapset Discussions**, `getLookupBeatmap`, `getBeatmapScoresNonLegacy`, **Changelog**, **Comments**, **Events**, **Forum**, **Home**, **News**, `getKudosuRanking`, `getSpotlights`, **Wiki**.

@@ -17,7 +17,7 @@ Returns the top scores for a beatmap. Depending on user preferences, this may on
 ### Parameters
 
 `beatmapId` <small>String</small><br>
-The ID of a beatmap.
+The ID of the beatmap.
 
 `legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to `0`.

@@ -17,7 +17,7 @@ Returns kudosu history.
 ### Parameters
 
 `userId` <small>String</small><br>
-The ID of an osu! user.
+The ID of the user.
 
 `limit` <small>String</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.

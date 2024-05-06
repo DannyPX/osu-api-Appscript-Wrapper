@@ -17,10 +17,10 @@ Returns a list of scores for specified playlist item.
 ### Parameters
 
 `roomId` <small>String</small><br>
-ID of the room.
+The ID of the room.
 
 `playlistId` <small>String</small><br>
-ID of the playlist item.
+The ID of the playlist item.
 
 `limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
