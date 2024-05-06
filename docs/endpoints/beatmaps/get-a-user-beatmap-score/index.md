@@ -17,10 +17,10 @@ Return a User's score on a Beatmap
 ### Parameters
 
 `userId` <small>String</small><br>
-The ID of an user.
+The ID of the user.
 
 `beatmapId` <small>String</small><br>
-The ID of a beatmap.
+The ID of the beatmap.
 
 `legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to 0.

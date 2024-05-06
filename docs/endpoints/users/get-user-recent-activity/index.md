@@ -17,7 +17,7 @@ Returns recent activity.
 ### Parameters
 
 `userId` <small>String</small><br>
-ID of a user.
+The ID of the user.
 
 `limit` <small>Number</small><br>
 Maximum number of results.

@@ -17,7 +17,7 @@ Returns difficulty attributes of beatmap with specific mode and mods combination
 ### Parameters
 
 `beatmapId` <small>String</small><br>
-The ID of a beatmap.
+The ID of the beatmap.
 
 `mods` <small>Int|String[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
 Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods.

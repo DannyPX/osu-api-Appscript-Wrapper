@@ -17,7 +17,7 @@ Get Beatmapset
 ### Parameters
 
 `beatmapset` <small>String</small><br>
-ID of the beatmapset
+The ID of the beatmapset
 
 `token` <small>String</small><br>
 Access Token.

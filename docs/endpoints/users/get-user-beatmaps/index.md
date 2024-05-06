@@ -17,7 +17,7 @@ Returns the beatmaps of specified user.
 ### Parameters
 
 `userId` <small>String</small><br>
-ID of the user.
+The ID of the user.
 
 `beatmap_type` <small>[BeatmapType](../../types/beatmap-type)</small><br>
 Beatmap type.

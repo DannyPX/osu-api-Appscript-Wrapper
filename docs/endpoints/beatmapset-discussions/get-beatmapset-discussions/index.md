@@ -20,7 +20,7 @@ Returns a list of beatmapset discussions.
 ID of the Beatmap.
 
 `beatmapset_id` <small>String</small> <Badge type="tip" text="optional" /><br>
-ID of the Beatmapset.
+The ID of the Beatmapset.
 
 `beatmapset_status` <small>[BeatmapsetStatus](../types/beatmapset-status)</small> <Badge type="tip" text="optional" /><br>
 One of `All`, `Ranked`, `Qualified`, `Disqualified`, `NeverQualified`. Defaults to `All`.
