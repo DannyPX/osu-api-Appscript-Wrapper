@@ -17,15 +17,10 @@ export default [
     processor: "markdown/markdown"
   },
   {
-    files: ["**/*.md/*.js"],
-    rules: {
-    }
+    ignores: ['docs/.vitepress/cache/', '**/*.js'],
   },
   {
-    ignores: ['docs/.vitepress/cache/'],
-  },
-  {
-    files: ['docs/**/*.{js,vue,ts}'],
+    files: ['docs/**/*.{vue}'],
     languageOptions: {
       parser: vueParser,
       parserOptions: {
