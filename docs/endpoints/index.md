@@ -2,9 +2,9 @@
 outline: deep
 ---
 
-# What is osu!api v2 Appscript Wrapper?
+# What is osu!api v2 Apps Script Wrapper?
 
-The Appscript Wrapper for osu!api v2 is an unofficial Google Appscript Library Wrapper maintained by DannyPX. It has complete coverage of osu!api v2 with type safety in mind.
+The Apps Script Wrapper for osu!api v2 is an unofficial Google Apps Script Library Wrapper maintained by DannyPX. It has complete coverage of osu!api v2 with type safety in mind.
 
 ## Why this API wrapper?
 
@@ -15,7 +15,7 @@ The Appscript Wrapper for osu!api v2 is an unofficial Google Appscript Library W
 
 ## Coverage
 
-osu!api Appscript has a near 100% coverage over the API.
+osu!api Apps Script has a near 100% coverage over the API.
 
 For the current API, all documented endpoints with a <Badge type="info" text="GET"/> request have been implemented. 
 Some parameters aren't implemented yet, these parameters will be marked with <Badge type="danger" text="not implemented" />.

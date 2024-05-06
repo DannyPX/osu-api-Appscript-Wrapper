@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Getting Started
+# How to enable the library
 
 1. Open an Apps Script project.
 2. Click on the ➕ icon of Libraries below your files.
@@ -16,57 +16,99 @@ outline: deep
 
 ## Quick Example
 
+Get scores of [this](https://osu.ppy.sh/beatmapsets/1#osu/75) beatmap
+
 ::: code-group
 
 ```js [Code.gs]
-let api = osuAPILibrary
+const api = osuAPILibrary
 
-function getFirstBeatmap() {
-  const clientCredentials = api.ClientCredentialsGrant(client_id, client_secret)
-  /**
-   * {
-   *   "access_token": "verylongstring",
-   *   "expires_in": 86400,
-   *   "token_type": "Bearer"
-   * }
-   */
+// Get Client Credentials. Access Token in clientCredentials.access_token
+const clientCredentials = api.ClientCredentialsGrant(client_id, client_secret)
 
-  var firstBeatmap = api.getBeatmap(75, clientCredentials.access_token)
+// Parameters
+let beatmapId = 75
+let legacy_only = 1
+let mode = Ruleset.Standard
+
+// Call `getBeatmapScores`
+let result = api.getBeatmapScores(
+                   beatmapId, 
+                   legacy_only, 
+                   mode, 
+                   clientCredentials.access_token
+                 )
+
+console.log(result)
+```
+
+```js [Enum.gs]
+const Ruleset = {
+  Catch: 'fruits',
+  Mania: 'mania',
+  Standard: 'osu',
+  Taiko: 'taiko'
 }
 ```
 :::
 
 ::: code-group
 
-```js [console.log(firstBeatmap)]
+```json [console]
 {
-    "beatmapset_id": 1,
-    "difficulty_rating": 2.57,
-    "id": 75,
-    "mode": "osu",
-    "status": "ranked",
-    "total_length": 142,
-    "user_id": 2,
-    "version": "Normal",
-    "accuracy": 6,
-    "ar": 6,
-    "bpm": 120,
-    "convert": false,
-    "count_circles": 160,
-    "count_sliders": 30,
-    "count_spinners": 4,
-    "cs": 4,
-    "deleted_at": null,
-    "drain": 6,
-    "hit_length": 109,
-    "is_scoreable": true,
-    "last_updated": "2014-05-18T17:16:42Z",
-    "mode_int": 0,
-    "passcount": 83390,
-    "playcount": 685409,
-    "ranked": 1,
-    "url": "https://osu.ppy.sh/beatmaps/75",
-    ...
-}
+    "scores": [
+        {
+            "accuracy": 1,
+            "best_id": 123456,
+            "created_at": "2000-01-01T01:00:00Z",
+            "id": 123456,
+            "max_combo": 314,
+            "mode": "osu",
+            "mode_int": 0,
+            "mods": [
+                "HD",
+                "HR",
+            ],
+            "passed": true,
+            "perfect": true,
+            "pp": 123.123,
+            "rank": "SS",
+            "replay": true,
+            "score": 123456,
+            "statistics": {
+                "count_100": 1,
+                "count_300": 123,
+                "count_50": 1,
+                "count_geki": null,
+                "count_katu": null,
+                "count_miss": 0
+            },
+            "type": "score_best_osu",
+            "user_id": 123456,
+            "current_user_attributes": {
+                "pin": null
+            },
+            "user": {
+                "avatar_url": "https://a.ppy.sh/123456?123456.jpeg",
+                "country_code": "FI",
+                "default_group": "default",
+                "id": 123456,
+                "is_active": true,
+                "is_bot": false,
+                "is_deleted": false,
+                "is_online": true,
+                "is_supporter": true,
+                "last_visit": "2000-01-01T01:00:00+00:00",
+                "pm_friends_only": false,
+                "profile_colour": null,
+                "username": "username",
+                "country": {
+                    "code": "AA",
+                    "name": "Awesome Area"
+                },
+                ...
+            }
+        },
+        ...
 ```
 :::
