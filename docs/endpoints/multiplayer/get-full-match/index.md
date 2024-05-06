@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Get Match <Badge type="info" text="GET"/>
+# Get Full Match <Badge type="info" text="GET"/>
 
 ## `getFullMatch`
 

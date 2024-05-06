@@ -214,7 +214,7 @@ export default defineConfig({
                   link: '/endpoints/multiplayer/get-match/'
                 },
                 {
-                  text: 'Get full Match <code><i>Custom</i></code>',
+                  text: 'Get Full Match <code><i>Custom</i></code>',
                   link: '/endpoints/multiplayer/get-full-match/'
                 },
                 {
