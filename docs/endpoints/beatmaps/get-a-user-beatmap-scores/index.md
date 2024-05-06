@@ -17,7 +17,7 @@ Description
 ### Parameters
 
 `userId` <small>String</small><br>
-The ID of an osu! user.
+The ID of an user.
 
 `beatmapId` <small>String</small><br>
 The ID of a beatmap.

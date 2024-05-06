@@ -44,8 +44,8 @@ export default defineConfig({
           link: '/endpoints/getting-started',
         },
         {
-          text: 'Endpoints Overview',
-          link: '/endpoints/endpoints',
+          text: 'Comparison osu!api v2',
+          link: '/endpoints/comparison',
         },
         {
           text: 'Terms of Use',
@@ -346,12 +346,8 @@ export default defineConfig({
                   link: '/endpoints/types/beatmap-pack-type'
                 },
                 {
-                  text: 'Ruleset',
-                  link: '/endpoints/types/ruleset'
-                },
-                {
-                  text: 'Mod',
-                  link: '/endpoints/types/mod'
+                  text: 'BeatmapType',
+                  link: '/endpoints/types/beatmap-type'
                 },
                 {
                   text: 'BeatmapsetStatus',
@@ -362,17 +358,41 @@ export default defineConfig({
                   link: '/endpoints/types/discussion-score'
                 },
                 {
-                  text: 'DiscussionSort',
-                  link: '/endpoints/types/discussion-sort'
-                },
-                {
                   text: 'DiscussionTypes',
                   link: '/endpoints/types/discussion-types'
                 },
                 {
                   text: 'MessageTypes',
                   link: '/endpoints/types/message-types'
-                }
+                },
+                {
+                  text: 'Mod',
+                  link: '/endpoints/types/mod'
+                },
+                {
+                  text: 'MultiplayerScoresSort',
+                  link: '/endpoints/types/multiplayer-scores-sort'
+                },
+                {
+                  text: 'RankingType',
+                  link: '/endpoints/types/ranking-type'
+                },
+                {
+                  text: 'Ruleset',
+                  link: '/endpoints/types/ruleset'
+                },
+                {
+                  text: 'ScoreType',
+                  link: '/endpoints/types/score-type'
+                },
+                {
+                  text: 'SearchMode',
+                  link: '/endpoints/types/search-mode'
+                },
+                {
+                  text: 'Sort',
+                  link: '/endpoints/types/sort'
+                },
               ]
             }
           ]

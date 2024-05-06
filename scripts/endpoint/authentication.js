@@ -25,10 +25,10 @@ let tokenUrl = "oauth/token"
  * @param {String} client_secret The client secret of your application.
  * @return {JSONObject}
  */
-var ClientCredentialsGrant = (client_id, client_secret) => ClientCredentialsGrant_(client_id, client_secret)
+var ClientCredentialsGrant = (client_id, client_secret, grant_type, scope) => ClientCredentialsGrant_(client_id, client_secret, grant_type, scope)
 
-function ClientCredentialsGrant_(client_id, client_secret) {
-  return init_(client_id, client_secret)
+function ClientCredentialsGrant_(client_id, client_secret, grant_type, scope) {
+  return init_(client_id, client_secret, grant_type, scope)
 }
 
 /**
@@ -37,9 +37,11 @@ function ClientCredentialsGrant_(client_id, client_secret) {
  * @param {String} client_secret Your client_secret
  * @constructor
  */
-let init_ = function(client_id, client_secret) {
+let init_ = function(client_id, client_secret, grant_type, scope) {
   this.client_id = client_id;
   this.client_secret = client_secret;
+  this.grant_type = grant_type;
+  this.scope = scope;
   return auth_(this)
 }
 
@@ -47,8 +49,8 @@ function auth_(osu) {
   var payload = {
     'client_id' : osu.client_id,
     'client_secret' : osu.client_secret,
-    'grant_type' : ENUM_API_GRANT_TYPE.CLIENT_CREDENTIALS,
-    'scope' : ENUM_API_SCOPE.PUBLIC
+    'grant_type' : osu.grant_type,
+    'scope' : osu.scope
   }
 
   var response = postData_(tokenUrl, payload, _, baseUrl, JSON.parse)

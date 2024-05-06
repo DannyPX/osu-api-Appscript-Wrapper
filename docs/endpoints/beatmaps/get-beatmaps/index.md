@@ -16,7 +16,7 @@ Returns a list of beatmaps.
 
 ### Parameters
 
-`ids` <small>String[]</small><br>
+`ids` <small>Number[]</small><br>
 Beatmap IDs to be returned. Specify once for each beatmap ID requested. Up to 50 beatmaps can be requested at once.
 
 `token` <small>String</small><br>

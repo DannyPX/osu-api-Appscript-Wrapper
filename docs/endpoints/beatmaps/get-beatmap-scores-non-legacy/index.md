@@ -22,8 +22,8 @@ The ID of a beatmap.
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
-`mods` <small>String</small> <Badge type="tip" text="optional" /><br>
-An array of matching Mods, or none.
+`mods` <small>Int|String[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
+Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods.
 
 `type` <small>String</small> <Badge type="tip" text="optional" /><br>
 Beatmap score ranking type.
