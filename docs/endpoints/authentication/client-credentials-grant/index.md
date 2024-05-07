@@ -22,6 +22,12 @@ The Client ID you received when you [registered](https://osu.ppy.sh/home/account
 `client_secret` <small>String</small><br>
 The client secret of your application.
 
+`grant_type` <small>String</small> <Badge type="danger" text="not implemented" /><br>
+This must always be `client_credentials`.
+
+`scope` <small>String</small> <Badge type="danger" text="not implemented" /><br>
+Must be `public`; other scopes have no meaningful effect.
+
 ## Example
 
 ### Code

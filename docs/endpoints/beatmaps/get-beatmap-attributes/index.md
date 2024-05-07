@@ -23,7 +23,7 @@ The ID of the beatmap.
 Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods.
 
 `ruleset` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
-The **Ruleset** to get scores for.
+Ruleset of the difficulty attributes. Only valid if it's the beatmap ruleset or the beatmap can be converted to the specified ruleset. Defaults to ruleset of the specified beatmap.
 
 `ruleset_id` <small>Number</small> <Badge type="tip" text="optional" /><br>
 The same as `ruleset` but in integer form.
