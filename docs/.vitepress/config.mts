@@ -382,6 +382,10 @@ export default defineConfig({
                   link: '/endpoints/types/ruleset'
                 },
                 {
+                  text: 'Scope',
+                  link: '/endpoints/types/scope'
+                },
+                {
                   text: 'ScoreType',
                   link: '/endpoints/types/score-type'
                 },

@@ -6,6 +6,7 @@
   "devDependencies": {
     "@eslint/js": "^9.1.1",
     "@types/google-apps-script": "^1.0.83",
+    "@types/node": "^20.12.10",
     "@typescript-eslint/parser": "^7.8.0",
     "eslint": "^9.1.1",
     "eslint-plugin-vue": "^9.25.0",
