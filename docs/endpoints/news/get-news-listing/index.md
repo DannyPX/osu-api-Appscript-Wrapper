@@ -25,6 +25,9 @@ Year to return posts from.
 `token` <small>String</small><br>
 Access Token.
 
+`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+CursorString for pagination.
+
 ## Example
 
 ### Code

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Get Room <Badge type="info" text="GET"/> <Badge type="warning" text="LAZER" />
+# Get Room <Badge type="info" text="GET"/> <Badge type="warning" text="LAZER" /> <Badge type="warning" text="undocumented" />
 
 ## `getRoom`
 

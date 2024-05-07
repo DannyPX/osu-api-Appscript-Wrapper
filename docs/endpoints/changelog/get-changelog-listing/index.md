@@ -28,7 +28,7 @@ Stream name to return builds from.
 `to` <small>String</small> <Badge type="tip" text="optional" /><br>
 Maximum build version.
 
-`message_formats` <small>String</small> <Badge type="tip" text="optional" /><br>
+`message_formats` <small>String[]</small> <Badge type="tip" text="optional" /><br>
 `html`, `markdown`. Default to both.
 
 `token` <small>String</small><br>

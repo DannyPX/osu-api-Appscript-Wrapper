@@ -12,15 +12,27 @@ Get topic and its posts.
 
 ## Usage
 
-`api.getTopicAndPosts(sort, token)`
+`api.getTopicAndPosts(sort, limit, start, end, token)`
 
 ### Parameters
 
 `sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
-`Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
+`Descending` for newest first; `Ascending` for oldest first. Defaults to `Ascending`.
 
 `token` <small>String</small><br>
 Access Token.
+
+`limit` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+Maximum number of posts to be returned (20 default, 50 at most).
+
+`start` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+First post id to be returned with `sort` set to `Ascending`. This parameter is ignored if `cursor_string` is specified.
+
+`end` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+First post id to be returned with `sort` set to `Descending`. This parameter is ignored if `cursor_string` is specified.
+
+`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+CursorString for pagination.
 
 ## Example
 
