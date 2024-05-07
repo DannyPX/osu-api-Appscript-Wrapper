@@ -16,13 +16,13 @@ Searches users and wiki pages.
 
 ### Parameters
 
-`mode` <small>[SearchMode](../../types/search-mode)</small><br>
+`mode` <small>[SearchMode](../../types/search-mode)</small> <Badge type="tip" text="optional" /><br>
 Either `All`, `User`, or `WikiPage`. Default is `All`.
 
-`query` <small>String</small><br>
+`query` <small>String</small> <Badge type="tip" text="optional" /><br>
 Search keyword.
 
-`page` <small>Number</small><br>
+`page` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Search result page. Ignored for mode `All`.
 
 `token` <small>String</small><br>

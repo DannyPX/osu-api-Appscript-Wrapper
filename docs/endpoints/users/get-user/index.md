@@ -23,7 +23,7 @@ The ID of the user.
 Ruleset. User default mode will be used if not specified.
 
 `key` <small>String</small> <Badge type="tip" text="optional" /><br>
-Type of user passed in url parameter. Can be either id or username to limit lookup by their respective type. Passing empty or invalid value will result in id lookup followed by username lookup if not found.
+Type of `user` passed in url parameter. Can be either `id` or `username` to limit lookup by their respective type. Passing empty or invalid value will result in id lookup followed by username lookup if not found.
 
 `token` <small>String</small><br>
 Access Token.

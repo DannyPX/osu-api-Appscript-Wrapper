@@ -19,10 +19,10 @@ Returns recent activity.
 `userId` <small>String</small><br>
 The ID of the user.
 
-`limit` <small>Number</small><br>
+`limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
-`offset` <small>String</small><br>
+`offset` <small>String</small> <Badge type="tip" text="optional" /><br>
 Result offset for pagination.
 
 `token` <small>String</small><br>
