@@ -11,7 +11,7 @@ outline: deep
    1nT8zViGGMRg5HaH6laQlfnlNNGnZ2nbp5oihdBjgr-Yii7shk_c1hDTC
    ```
 4. Press <b>Look up</b>
-5. Choose the latest version (See [Changelog](#))
+5. Choose the latest version (See [Changelog](./changelog))
 6. Type in an <b>Identifier</b>. This is used to reference this library within this project. (Defaults to `osuAPILibrary`)
 
 ## Quick Example
