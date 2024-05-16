@@ -12,27 +12,27 @@ Returns a listing of update streams, builds, and changelog entries.
 
 ## Usage
 
-`api.getChangelogListing(from, max_id, stream, to, message_formats, token)`
+`api.getChangelogListing(token, from, max_id, stream, to, message_formats)`
 
 ### Parameters
 
-`from` <small>String</small> <Badge type="tip" text="optional" /><br>
+`token` <small>string</small><br>
+Access Token.
+
+`from` <small>string</small> <Badge type="tip" text="optional" /><br>
 Minimum build version.
 
-`max_id` <small>String</small> <Badge type="tip" text="optional" /><br>
+`max_id` <small>string</small> <Badge type="tip" text="optional" /><br>
 Maximum build ID.
 
-`stream` <small>String</small> <Badge type="tip" text="optional" /><br>
+`stream` <small>string</small> <Badge type="tip" text="optional" /><br>
 Stream name to return builds from.
 
-`to` <small>String</small> <Badge type="tip" text="optional" /><br>
+`to` <small>string</small> <Badge type="tip" text="optional" /><br>
 Maximum build version.
 
-`message_formats` <small>String</small> <Badge type="tip" text="optional" /><br>
+`message_formats` <small>string[]</small> <Badge type="tip" text="optional" /><br>
 `html`, `markdown`. Default to both.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 

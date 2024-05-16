@@ -12,18 +12,18 @@ Returns details of the specified build.
 
 ## Usage
 
-`api.getChangelogBuild(stream, build, token)`
+`api.getChangelogBuild(token, stream, build)`
 
 ### Parameters
 
-`stream` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`stream` <small>string</small><br>
 Update stream name.
 
-`build` <small>String</small><br>
+`build` <small>string</small><br>
 Build version.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 

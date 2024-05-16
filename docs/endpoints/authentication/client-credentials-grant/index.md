@@ -16,11 +16,21 @@ The client credential flow provides a way for developers to get access tokens th
 
 ### Parameters
 
-`client_id` <small>String</small><br>
+`client_id` <small>number</small><br>
 The Client ID you received when you [registered](https://osu.ppy.sh/home/account/edit#new-oauth-application).
 
-`client_secret` <small>String</small><br>
+`client_secret` <small>string</small><br>
 The client secret of your application.
+
+`grant_type` <small>string</small><br>
+This must always be `client_credentials`.
+
+`scope` <small>[Scope](../../types/scope)</small><br>
+Must be `Public`; other scopes have no meaningful effect.
+
+## Response Format
+
+<!--@include: ./response.md-->
 
 ## Example
 
@@ -29,7 +39,3 @@ The client secret of your application.
 
 ### Output
 <<< ./output.json
-
-## Response Format
-
-<!--@include: ./response.md-->

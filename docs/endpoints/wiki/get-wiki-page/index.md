@@ -12,18 +12,18 @@ The wiki article or image data.
 
 ## Usage
 
-`api.getWikiPage(locale, path, token)`
+`api.getWikiPage(token, locale, path)`
 
 ### Parameters
 
-`locale` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`locale` <small>string</small><br>
 Two-letter language code of the wiki page.
 
-`path` <small>String</small><br>
+`path` <small>string</small><br>
 The path name of the wiki page.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 

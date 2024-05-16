@@ -12,14 +12,14 @@ Search Beatmapsets
 
 ## Usage
 
-`api.getSearchBeatmapsets(token)`
+`api.getSearchBeatmapsets(token, cursor_string)`
 
 ### Parameters
 
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
 
-`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>
 CursorString for pagination.
 
 ## Example

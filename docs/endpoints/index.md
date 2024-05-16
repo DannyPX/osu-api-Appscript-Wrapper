@@ -2,6 +2,10 @@
 outline: deep
 ---
 
+::: warning DISCLAIMER
+The documentation is only for V26+. V25 and below are not in sync with the documentation. Read the JSDocs carefully when using V25 or below.
+:::
+
 # What is osu!api v2 Apps Script Wrapper?
 
 The Apps Script Wrapper for osu!api v2 is an unofficial Google Apps Script Library Wrapper maintained by DannyPX. It has complete coverage of osu!api v2 with type safety in mind.
@@ -15,12 +19,13 @@ The Apps Script Wrapper for osu!api v2 is an unofficial Google Apps Script Libra
 
 ## Coverage
 
-osu!api Apps Script has a near 100% coverage over the API.
+- For the current API, all documented endpoints with a <Badge type="info" text="GET"/> request have been implemented. 
+- Some parameters aren't implemented yet, these parameters will be marked with <Badge type="danger" text="not implemented" />.*
+- Some endpoints with <Badge type="tip" text="POST"/> have been implemented, but aren't tested.
+- Some undocumented have been implemented, this will be marked with <Badge type="warning" text="undocumented" />.
+- Some endpoints with <Badge type="warning" text="LAZER" /> are meant only for osu!lazer features. Like lazer lobbies.
 
-For the current API, all documented endpoints with a <Badge type="info" text="GET"/> request have been implemented. 
-Some parameters aren't implemented yet, these parameters will be marked with <Badge type="danger" text="not implemented" />.
-Some endpoints with <Badge type="tip" text="POST"/> have been implemented, but aren't tested.
-Some undocumented have been implemented, this will be marked with <Badge type="warning" text="undocumented" />.
+\* See [Comparison osu!api v2](./comparison)
 
 ## Links
 

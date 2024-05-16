@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Get Room <Badge type="info" text="GET"/> <Badge type="warning" text="LAZER" />
+# Get Room <Badge type="info" text="GET"/> <Badge type="warning" text="LAZER" /> <Badge type="warning" text="undocumented" />
 
 ## `getRoom`
 
@@ -12,15 +12,15 @@ Returns the room.
 
 ## Usage
 
-`api.getRoom(roomId, token)`
+`api.getRoom(token, room)`
 
 ### Parameters
 
-`roomId` <small>String</small><br>
-The ID of the room.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`room` <small>number</small><br>
+The ID of the room.
 
 ## Example
 

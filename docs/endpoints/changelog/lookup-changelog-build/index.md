@@ -12,21 +12,21 @@ Returns details of the specified build.
 
 ## Usage
 
-`api.getLookupChangelogBuild(changelog, key, message_formats, token)`
+`api.getLookupChangelogBuild(token, changelog, key, message_formats)`
 
 ### Parameters
 
-`changelog` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`changelog` <small>string</small><br>
 Build version, update stream name, or build ID.
 
-`key` <small>String</small> <Badge type="tip" text="optional" /><br>
+`key` <small>string</small> <Badge type="tip" text="optional" /><br>
 Unset to query by build version or stream name, or `id` to query by build ID.
 
-`message_formats` <small>String</small> <Badge type="tip" text="optional" /><br>
-html, markdown. Default to both.
-
-`token` <small>String</small><br>
-Access Token.
+`message_formats` <small>string[]</small> <Badge type="tip" text="optional" /><br>
+`html`, `markdown`. Default to both.
 
 ## Example
 

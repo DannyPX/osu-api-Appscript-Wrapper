@@ -6,30 +6,30 @@ outline: deep
 
 ## `getUserBeatmapScores`
 
-Description
+Return a User's scores on a Beatmap
 
 <small>osu!api documentation: https://osu.ppy.sh/docs/index.html#get-a-user-beatmap-scores</small>
 
 ## Usage
 
-`api.getUserBeatmapScores(userId, beatmapId, legacy_only, mode, token)`
+`api.getUserBeatmapScores(token, user, beatmap, legacy_only, mode)`
 
 ### Parameters
 
-`userId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`user` <small>number</small><br>
 The ID of the user.
 
-`beatmapId` <small>String</small><br>
+`beatmap` <small>number</small><br>
 The ID of the beatmap.
 
-`legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`legacy_only` <small>number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to 0.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 
