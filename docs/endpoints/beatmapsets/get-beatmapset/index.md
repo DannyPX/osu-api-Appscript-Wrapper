@@ -8,19 +8,19 @@ outline: deep
 
 Get Beatmapset
 
-<small>osu!api documentation: https://osu.ppy.sh/docs/function</small>
+<small>osu!api documentation: https://osu.ppy.sh/docs/index.html#get-apiv2beatmapsetsbeatmapset</small>
 
 ## Usage
 
-`api.getBeatmapset(beatmapset, token)`
+`api.getBeatmapset(token, beatmapset)`
 
 ### Parameters
 
-`beatmapset` <small>String</small><br>
-The ID of the beatmapset
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`beatmapset` <small>number</small><br>
+The ID of the beatmapset
 
 ## Example
 

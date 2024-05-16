@@ -12,15 +12,15 @@ Gets the kudosu ranking.
 
 ## Usage
 
-`api.getKudosuRanking(page, token)`
+`api.getKudosuRanking(token, page)`
 
 ### Parameters
 
-`page` <small>String</small> <Badge type="tip" text="optional" /><br>
-Ranking page.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`page` <small>number</small> <Badge type="tip" text="optional" /><br>
+Ranking page.
 
 ## Example
 

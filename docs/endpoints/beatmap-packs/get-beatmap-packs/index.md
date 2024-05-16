@@ -12,18 +12,18 @@ Returns a list of beatmap packs.
 
 ## Usage
 
-`api.getBeatmapPacks(type, token)`
+`api.getBeatmapPacks(token, type, cursor_string)`
 
 ### Parameters
+
+`token` <small>string</small><br>
+Access Token.
 
 `type` <small>[BeatmapPackType](../../types/beatmap-pack-type)</small> <Badge type="tip" text="optional" /><br> 
 **BeatmapPackType** of the beatmap packs to be returned. Defaults to `standard`.
 
-`token` <small>String</small><br>
-Access Token.
-
-`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
-CursorString for pagination.
+`cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>
+[CursorString](https://osu.ppy.sh/docs/index.html#cursorstring) for pagination.
 
 ## Example
 

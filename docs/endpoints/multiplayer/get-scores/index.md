@@ -8,30 +8,30 @@ outline: deep
 
 Returns a list of scores for specified playlist item.
 
-<small>osu!api documentation: https://osu.ppy.sh/docs/function</small>
+<small>osu!api documentation: https://osu.ppy.sh/docs/index.html#get-scores</small>
 
 ## Usage
 
-`api.getScores(roomId, playlistId, limit, sort, token)`
+`api.getScores(token, room, playlist, limit, sort)`
 
 ### Parameters
 
-`roomId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`room` <small>number</small><br>
 The ID of the room.
 
-`playlistId` <small>String</small><br>
+`playlist` <small>number</small><br>
 The ID of the playlist item.
 
-`limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`limit` <small>number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
 `sort` <small>[MultiplayerScoresSort](../../types/multiplayer-scores-sort)</small> <Badge type="tip" text="optional" /><br>
 Sort option for multiplayer scores index.
 
-`token` <small>String</small><br>
-Access Token.
-
-`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>
 CursorString for pagination.
 
 ## Example

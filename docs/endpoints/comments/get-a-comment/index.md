@@ -12,15 +12,15 @@ Gets a comment and its replies up to 2 levels deep.
 
 ## Usage
 
-`api.getComment(comment, token)`
+`api.getComment(token, comment)`
 
 ### Parameters
 
-`comment` <small>String</small><br>
-The comment.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`comment` <small>string</small><br>
+The comment.
 
 ## Example
 

@@ -14,40 +14,40 @@ Here is a list of endpoints compared to the official [osu!api v2 documentation](
 
 ## Authentication
 
-| Endpoint                     |   osu!api v2   | osu!api Wrapper | Note                             |
-| ---------------------------- | :------------: | :-------------: | -------------------------------- |
-| **Authorization Code Grant** | :green_circle: |  :red_circle:   |                                  |
-| **Client Credentials Grant** | :green_circle: | :yellow_circle: | Missing `grant_type` and `scope` |
+| Endpoint                     |   osu!api v2   | osu!api Wrapper | Note |
+| ---------------------------- | :------------: | :-------------: | ---- |
+| **Authorization Code Grant** | :green_circle: |  :red_circle:   |      |
+| **Client Credentials Grant** | :green_circle: | :green_circle:  |      |
 
 ## Beatmap Packs
 
-| Endpoint              |   osu!api v2   | osu!api Wrapper | Note                    |
-| --------------------- | :------------: | :-------------: | ----------------------- |
-| **Get Beatmap Packs** | :green_circle: | :yellow_circle: | Missing `cursor_string` |
-| **Get Beatmap Pack**  | :green_circle: | :green_circle:  |                         |
+| Endpoint              |   osu!api v2   | osu!api Wrapper | Note |
+| --------------------- | :------------: | :-------------: | ---- |
+| **Get Beatmap Packs** | :green_circle: | :green_circle:  |      |
+| **Get Beatmap Pack**  | :green_circle: | :green_circle:  |      |
 
 ## Beatmaps
 
-| Endpoint                            |   osu!api v2    | osu!api Wrapper | Note                      |
-| ----------------------------------- | :-------------: | :-------------: | ------------------------- |
-| **Lookup Beatmap**                  | :green_circle:  | :green_circle:  |                           |
-| **Get a User Beatmap score**        | :green_circle:* | :yellow_circle: | Missing `mods`            |
-| **Get a User Beatmap scores**       | :green_circle:  | :green_circle:  |                           |
-| **Get Beatmap Scores**              | :green_circle:* | :yellow_circle: | Missing `mods` and `type` |
-| **Get Beatmap Scores (non-legacy)** | :green_circle:* | :green_circle:  |                           |
-| **Get Beatmaps**                    | :green_circle:  | :green_circle:  |                           |
-| **Get Beatmap**                     | :green_circle:  | :green_circle:  |                           |
-| **Get Beatmap Attributes**          | :green_circle:  | :green_circle:  |                           |
+| Endpoint                            |   osu!api v2    | osu!api Wrapper | Note |
+| ----------------------------------- | :-------------: | :-------------: | ---- |
+| **Lookup Beatmap**                  | :green_circle:  | :green_circle:  |      |
+| **Get a User Beatmap score**        | :green_circle:* | :green_circle:  |      |
+| **Get a User Beatmap scores**       | :green_circle:  | :green_circle:  |      |
+| **Get Beatmap Scores**              | :green_circle:* | :green_circle:  |      |
+| **Get Beatmap Scores (non-legacy)** | :green_circle:* | :green_circle:  |      |
+| **Get Beatmaps**                    | :green_circle:  | :green_circle:  |      |
+| **Get Beatmap**                     | :green_circle:  | :green_circle:  |      |
+| **Get Beatmap Attributes**          | :green_circle:  | :green_circle:  |      |
 
 \* Not fully documented
 
 ## Beatmapset Discussions
 
-| Endpoint                            |   osu!api v2   | osu!api Wrapper | Note                    |
-| ----------------------------------- | :------------: | :-------------: | ----------------------- |
-| **Get Beatmapset Discussion Posts** | :green_circle: | :green_circle:  |                         |
-| **Get Beatmapset Discussion Votes** | :green_circle: | :green_circle:  |                         |
-| **Get Beatmapset Discussions**      | :green_circle: | :yellow_circle: | Missing `cursor_string` |
+| Endpoint                            |   osu!api v2   | osu!api Wrapper | Note |
+| ----------------------------------- | :------------: | :-------------: | ---- |
+| **Get Beatmapset Discussion Posts** | :green_circle: | :green_circle:  |      |
+| **Get Beatmapset Discussion Votes** | :green_circle: | :green_circle:  |      |
+| **Get Beatmapset Discussions**      | :green_circle: | :green_circle:  |      |
 
 ## Beatmapsets
 
@@ -69,19 +69,19 @@ Here is a list of endpoints compared to the official [osu!api v2 documentation](
 
 ## Events
 
-| Endpoint       |   osu!api v2   | osu!api Wrapper | Note                    |
-| -------------- | :------------: | :-------------: | ----------------------- |
-| **Get Events** | :green_circle: | :yellow_circle: | Missing `cursor_string` |
+| Endpoint       |   osu!api v2   | osu!api Wrapper | Note |
+| -------------- | :------------: | :-------------: | ---- |
+| **Get Events** | :green_circle: | :green_circle:  |      |
 
 ## Forum
 
-| Endpoint                 |   osu!api v2   | osu!api Wrapper | Note                                                |
-| ------------------------ | :------------: | :-------------: | --------------------------------------------------- |
-| **Reply Topic**          | :green_circle: |  :red_circle:   |                                                     |
-| **Create Topic**         | :green_circle: |  :red_circle:   |                                                     |
-| **Get Topic and Poists** | :green_circle: | :yellow_circle: | Missing `limit`, `start`, `end` and `cursor_string` |
-| **Edit Topic**           | :green_circle: |  :red_circle:   |                                                     |
-| **Edit Post**            | :green_circle: |  :red_circle:   |                                                     |
+| Endpoint                 |   osu!api v2   | osu!api Wrapper | Note |
+| ------------------------ | :------------: | :-------------: | ---- |
+| **Reply Topic**          | :green_circle: |  :red_circle:   |      |
+| **Create Topic**         | :green_circle: |  :red_circle:   |      |
+| **Get Topic and Poists** | :green_circle: | :green_circle:  |      |
+| **Edit Topic**           | :green_circle: |  :red_circle:   |      |
+| **Edit Post**            | :green_circle: |  :red_circle:   |      |
 
 ## Home
 
@@ -94,7 +94,7 @@ Here is a list of endpoints compared to the official [osu!api v2 documentation](
 | Endpoint                  |   osu!api v2    | osu!api Wrapper | Note                          |
 | ------------------------- | :-------------: | :-------------: | ----------------------------- |
 | **Get User High Score**   | :green_circle:  |  :red_circle:   |                               |
-| **Get Scores**            | :green_circle:  | :yellow_circle: | Missing `cursor_string`       |
+| **Get Scores**            | :green_circle:  | :green_circle:  |                               |
 | **Get a Score**           | :green_circle:  |  :red_circle:   |                               |
 | **Get Multiplayer Rooms** | :green_circle:  |  :red_circle:   |                               |
 | **Get Match**             | :yellow_circle: | :green_circle:  | Includes `before` and `limit` |
@@ -105,31 +105,31 @@ Here is a list of endpoints compared to the official [osu!api v2 documentation](
 
 ## News
 
-| Endpoint             |   osu!api v2   | osu!api Wrapper | Note                    |
-| -------------------- | :------------: | :-------------: | ----------------------- |
-| **Get News Listing** | :green_circle: | :yellow_circle: | Missing `cursor_string` |
-| **Get News Post**    | :green_circle: | :green_circle:  |                         |
+| Endpoint             |   osu!api v2   | osu!api Wrapper | Note |
+| -------------------- | :------------: | :-------------: | ---- |
+| **Get News Listing** | :green_circle: | :green_circle:  |      |
+| **Get News Post**    | :green_circle: | :green_circle:  |      |
 
 ## Comments
 
-| Endpoint                |   osu!api v2   | osu!api Wrapper | Note             |
-| ----------------------- | :------------: | :-------------: | ---------------- |
-| **Get Comments**        | :green_circle: | :yellow_circle: | Missing `cursor` |
-| **Post a new comment**  | :green_circle: |  :red_circle:   |                  |
-| **Get a Comment**       | :green_circle: | :green_circle:  |                  |
-| **Edit Comment**        | :green_circle: |  :red_circle:   |                  |
-| **Delete Comment**      | :green_circle: |  :red_circle:   |                  |
-| **Add Comment vote**    | :green_circle: |  :red_circle:   |                  |
-| **Remove Comment vote** | :green_circle: |  :red_circle:   |                  |
+| Endpoint                |   osu!api v2   | osu!api Wrapper | Note |
+| ----------------------- | :------------: | :-------------: | ---- |
+| **Get Comments**        | :green_circle: | :green_circle:  |      |
+| **Post a new comment**  | :green_circle: |  :red_circle:   |      |
+| **Get a Comment**       | :green_circle: | :green_circle:  |      |
+| **Edit Comment**        | :green_circle: |  :red_circle:   |      |
+| **Delete Comment**      | :green_circle: |  :red_circle:   |      |
+| **Add Comment vote**    | :green_circle: |  :red_circle:   |      |
+| **Remove Comment vote** | :green_circle: |  :red_circle:   |      |
 
 ## Ranking
 
-| Endpoint               |   osu!api v2   | osu!api Wrapper | Note             |
-| ---------------------- | :------------: | :-------------: | ---------------- |
-| **Get Kudosu Ranking** | :green_circle: | :green_circle:  |                  |
-| **Get Ranking**        | :green_circle: | :yellow_circle: | Missing `cursor` |
-| **Get Full Ranking**   |  :red_circle:  | :green_circle:  | Custom endpoint  |
-| **Get Spotlights**     | :green_circle: | :green_circle:  |                  |
+| Endpoint               |   osu!api v2   | osu!api Wrapper | Note            |
+| ---------------------- | :------------: | :-------------: | --------------- |
+| **Get Kudosu Ranking** | :green_circle: | :green_circle:  |                 |
+| **Get Ranking**        | :green_circle: | :green_circle:  |                 |
+| **Get Full Ranking**   |  :red_circle:  | :green_circle:  | Custom endpoint |
+| **Get Spotlights**     | :green_circle: | :green_circle:  |                 |
 
 ## Users
 

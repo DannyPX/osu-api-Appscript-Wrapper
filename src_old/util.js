@@ -208,7 +208,6 @@ let NoParserAvailable_ = function() { console.warn("There is no parser for this 
 
 function parseJSON_(json) {
   var data = JSON.parse(json)
-  NoParserAvailable_()
   return data
 }
 
@@ -278,11 +277,13 @@ function tryFetch_(query, options) {
 function fetchData_(query, token, url, parser) {
   let options = getOptions_(REQUEST_METHOD.GET, _, CONTENT_TYPE.JSON, token)
   let response = tryFetch_(url + query, options)
+  console.warn("This version is getting deprecated. Be aware of changes in the future update.")
   return response.errMessage != undefined ? ErrorMessage_(response.errMessage) : parser(response)
 }
 
 function postData_(query, payload, token, url, parser) {
   let options = getOptions_(REQUEST_METHOD.POST, payload, CONTENT_TYPE.JSON, token)
   let response = tryFetch_(url + query, options)
+  console.warn("This version is getting deprecated. Be aware of changes in the future update.")
   return response.errMessage != undefined ? ErrorMessage_(response.errMessage) : parser(response)
 }

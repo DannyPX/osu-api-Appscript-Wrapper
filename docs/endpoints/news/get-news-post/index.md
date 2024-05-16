@@ -12,18 +12,18 @@ Returns details of the specified news post.
 
 ## Usage
 
-`api.getNewsPost(news, key, token)`
+`api.getNewsPost(token, news, key)`
 
 ### Parameters
 
-`news` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`news` <small>string</small><br>
 News post slug or ID.
 
-`key` <small>String</small> <Badge type="tip" text="optional" /><br>
+`key` <small>string</small> <Badge type="tip" text="optional" /><br>
 Unset to query by slug, or `id` to query by ID.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 

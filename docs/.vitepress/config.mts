@@ -30,7 +30,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/endpoints/' },
       { text: 'Snippets', link: '/snippets/' },
-      { text: 'V25', items: [{ text: 'Changelog', link: '/endpoints/changelog' }]}
+      { text: 'V26', items: [{ text: 'Changelog', link: '/endpoints/changelog' }]}
     ],
 
     sidebar: {
@@ -380,6 +380,10 @@ export default defineConfig({
                 {
                   text: 'Ruleset',
                   link: '/endpoints/types/ruleset'
+                },
+                {
+                  text: 'Scope',
+                  link: '/endpoints/types/scope'
                 },
                 {
                   text: 'ScoreType',

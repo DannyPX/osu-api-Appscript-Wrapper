@@ -4,7 +4,7 @@ outline: deep
 
 # Lookup Beatmap <Badge type="info" text="GET"/>
 
-## `getLookupBeatmap`
+## `lookupBeatmap`
 
 Returns beatmap.
 
@@ -12,21 +12,21 @@ Returns beatmap.
 
 ## Usage
 
-`api.getLookupBeatmap(checksum, filename, beatmapId, token)`
+`api.lookupBeatmap(token, checksum, filename, beatmap)`
 
 ### Parameters
 
-`checksum` <small>String</small> <Badge type="tip" text="optional" /><br>
+`token` <small>string</small><br>
+Access Token.
+
+`checksum` <small>string</small> <Badge type="tip" text="optional" /><br>
 A beatmap checksum.
 
-`filename` <small>String</small> <Badge type="tip" text="optional" /><br>
+`filename` <small>string</small> <Badge type="tip" text="optional" /><br>
 A filename to lookup.
 
-`beatmapId` <small>String</small> <Badge type="tip" text="optional" /><br>
+`beatmap` <small>number</small> <Badge type="tip" text="optional" /><br>
 A beatmap ID to lookup.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 

@@ -12,15 +12,15 @@ Returns a list of beatmaps.
 
 ## Usage
 
-`api.getBeatmaps(ids, token)`
+`api.getBeatmaps(token, ids)`
 
 ### Parameters
 
-`ids` <small>Number[]</small><br>
-Beatmap IDs to be returned. Specify once for each beatmap ID requested. Up to 50 beatmaps can be requested at once.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`ids` <small>number[]</small><br>
+Beatmap IDs to be returned. Array of IDs. Up to 50 beatmaps can be requested at once.
 
 ## Example
 

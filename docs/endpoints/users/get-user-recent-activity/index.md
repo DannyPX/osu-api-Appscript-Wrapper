@@ -12,21 +12,21 @@ Returns recent activity.
 
 ## Usage
 
-`api.getUserRecentActivity(userId, limit, offset, token)`
+`api.getUserRecentActivity(token, user, limit, offset)`
 
 ### Parameters
 
-`userId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`user` <small>number</small><br>
 The ID of the user.
 
-`limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`limit` <small>number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
-`offset` <small>String</small> <Badge type="tip" text="optional" /><br>
+`offset` <small>number</small> <Badge type="tip" text="optional" /><br>
 Result offset for pagination.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 
