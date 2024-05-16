@@ -161,9 +161,11 @@ const getUsers = (
 ) => {
   let arrayQueryParameters = [];
 
-  ids.forEach(function (id: number) {
-    arrayQueryParameters.push(parseParam_("ids[]", id));
-  });
+  if (ids !== undefined && ids !== Array.Empty) {
+    ids.forEach(function (id: number) {
+      arrayQueryParameters.push(parseParam_("ids[]", id));
+    });
+  }
 
   let queryParameters = queryBuilder_(arrayQueryParameters);
 

@@ -47,9 +47,11 @@ const getChangelogListing = (
     parseParam_("to", to)
   ];
 
-  message_formats.forEach(function (message_format: string) {
-    arrayQueryParameters.push(parseParam_("message_formats[]", message_format));
-  });
+  if (message_formats !== undefined && message_formats !== Array.Empty) {
+    message_formats.forEach(function (message_format: string) {
+      arrayQueryParameters.push(parseParam_("message_formats[]", message_format));
+    });
+  }
 
   let queryParameters = queryBuilder_(arrayQueryParameters);
   let query = `?${queryParameters}`;
@@ -78,9 +80,11 @@ const getLookupChangelogBuild = (
     parseParam_("key", key)
   ];
 
-  message_formats.forEach(function (message_format: string) {
-    arrayQueryParameters.push(parseParam_("message_formats[]", message_format));
-  });
+  if (message_formats !== undefined && message_formats !== Array.Empty) {
+    message_formats.forEach(function (message_format: string) {
+      arrayQueryParameters.push(parseParam_("message_formats[]", message_format));
+    });
+  }
 
   let queryParameters = queryBuilder_(arrayQueryParameters);
   let query = `${changelog}?${queryParameters}`;

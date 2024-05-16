@@ -32,9 +32,11 @@ const getBeatmapsetDiscussionPosts = (
     parseParam_("with_deleted", with_deleted),
   ];
 
-  types.forEach(function (type: string) {
-    arrayQueryParameters.push(parseParam_("types[]", type));
-  });
+  if (types !== undefined && types !== Array.Empty) {
+    types.forEach(function (type: string) {
+      arrayQueryParameters.push(parseParam_("types[]", type));
+    });
+  }
 
   let queryParameters = queryBuilder_(arrayQueryParameters);
   let query = `posts?${queryParameters}`;
@@ -95,7 +97,7 @@ const getBeatmapsetDiscussionVotes = (
  * @param {number=} beatmapset_id `beatmapset_id?` The ID of the Beatmapset.
  * @param {BeatmapsetStatus=} beatmapset_status `beatmapset_status?` One of `All`, `Ranked`, `Qualified`, `Disqualified`, `NeverQualified`. Defaults to `All`.
  * @param {number=} limit `limit?` Maximum number of results.
- * @param {MessageTypes=} message_types `message_types?` `Suggestion`, `Problem`, `MapperNote`, `Praise`, `Hype`, `Review`. Blank defaults to all types.
+ * @param {MessageTypes[]=} message_types `message_types?` `Suggestion`, `Problem`, `MapperNote`, `Praise`, `Hype`, `Review`. Blank defaults to all types.
  * @param {boolean=} only_unresolved `only_unresolved?` `true` to show only unresolved issues; `false`, otherwise. Defaults to `false`.
  * @param {number=} page `page?` Search result page.
  * @param {Sort=} sort `sort?` `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
@@ -119,8 +121,8 @@ const getBeatmapsetDiscussions = (
   cursor_string?: string
 ) => {
   let arrayQueryParameters = [
-    parseParam_("beatmap", beatmap_id),
-    parseParam_("beatmapset", beatmapset_id),
+    parseParam_("beatmap_id", beatmap_id),
+    parseParam_("beatmapset_id", beatmapset_id),
     parseParam_("beatmapset_status", beatmapset_status),
     parseParam_("limit", limit),
     parseParam_("only_unresolved", only_unresolved),
@@ -130,9 +132,11 @@ const getBeatmapsetDiscussions = (
     parseParam_("with_deleted", with_deleted)
   ];
 
-  message_types.forEach(function (message_type: string) {
-    arrayQueryParameters.push(parseParam_("message_types[]", message_type));
-  });
+  if (message_types !== undefined && message_types !== Array.Empty) {
+    message_types.forEach(function (message_type: string) {
+      arrayQueryParameters.push(parseParam_("message_types[]", message_type));
+    });
+  }
 
   let queryParameters = queryBuilder_(arrayQueryParameters);
   let query = `?${queryParameters}${parseCursor_(cursor_string)}`;

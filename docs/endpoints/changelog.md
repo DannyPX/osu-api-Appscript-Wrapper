@@ -9,13 +9,13 @@ outline: deep
 - Rewritten the entire library into TypeScript ([`typescript@3.8.2`](https://www.npmjs.com/package/typescript/v/3.8.2)). With transpiling from ES6+ to ES3 using [`ts2gas`](https://github.com/grant/ts2gas).
 - <Badge type="danger" text="Breaking Change" /> Library Parsers are removed. The Parsers didnt work as intended due to the limitations of Apps Script Libraries. Only the default `JSON.parse` is used
 - <Badge type="danger" text="Breaking Change" /> Token parameter is now the first parameter rather than last.
+- <Badge type="danger" text="Breaking Change" /> Removed page parameter from `getRanking`, as it didnt match the osu!web documentation. Use Cursor instead.
 - Added `grant_type` and `scope` parameter to `ClientCredentialsGrant`.
 - Added `cursor_string` parameter to `getBeatmapPacks`, `getBeatmapsetDiscussions`, `getEvents`, `getTopicAndPosts`, `getScores`, `getNewsListing`.
 - Added `mods` parameter to `getUserBeatmapScore`, `getBeatmapScores`.
 - Added `type` parameter to `getBeatmapScores`.
 - Added `cursor` parameter to `getComments`, `getRanking`.
 - Added `limit`, `start` and `end` to `getTopicAndPosts`.
-- <Badge type="danger" text="Breaking Change" /> Removed page parameter from `getRanking`, as it didnt match the osu!web documentation. Use Cursor instead.
 
 ## V25 <Badge type="tip" text="Stable" /> <Badge type="info" text="2024.306.0" /> 
 - Added endpoints for **Beatmap Packs**, **Beatmapset Discussions**, `getLookupBeatmap`, `getBeatmapScoresNonLegacy`, **Changelog**, **Comments**, **Events**, **Forum**, **Home**, **News**, `getKudosuRanking`, `getSpotlights`, **Wiki**.

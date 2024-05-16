@@ -15,3 +15,9 @@ interface StringConstructor {
 }
 
 String.Empty = "";
+
+interface ArrayConstructor {
+  Empty: Array<any>
+}
+
+Array.Empty = []
