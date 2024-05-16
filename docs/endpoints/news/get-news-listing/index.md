@@ -12,20 +12,20 @@ Returns a list of news posts and related metadata.
 
 ## Usage
 
-`api.getNewsListing(limit, year, token)`
+`api.getNewsListing(token, limit, year, cursor_string)`
 
 ### Parameters
 
-`limit` <small>String</small> <Badge type="tip" text="optional" /><br>
-Maximum number of posts (12 default, 1 minimum, 21 maximum).
-
-`year` <small>String</small> <Badge type="tip" text="optional" /><br>
-Year to return posts from.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
 
-`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`limit` <small>number</small> <Badge type="tip" text="optional" /><br>
+Maximum number of posts (12 default, 1 minimum, 21 maximum).
+
+`year` <small>number</small> <Badge type="tip" text="optional" /><br>
+Year to return posts from.
+
+`cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>
 CursorString for pagination.
 
 ## Example

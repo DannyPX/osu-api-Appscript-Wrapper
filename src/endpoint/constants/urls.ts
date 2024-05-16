@@ -1,5 +1,19 @@
-const baseUrl: string = `https://osu.ppy.sh/`;
-const apiUrl: string = `api/v2/`;
+const baseUrl_: string = `https://osu.ppy.sh/`;
+const apiUrl_: string = `api/v2/`;
 
-const authenticationUrl: string = `${baseUrl}oauth/`;
-const authenticationUrlToken: string = `token/`;
+const authenticationUrl_: string = `${baseUrl_}oauth/`;
+const beatmapPacksUrl_: string = `${baseUrl_}${apiUrl_}beatmaps/packs/`;
+const beatmapsUrl_: string = `${baseUrl_}${apiUrl_}beatmaps/`;
+const beatmapsetDiscussionsUrl_: string = `${baseUrl_}${apiUrl_}beatmapsets/discussions/`;
+const changelogUrl_: string = `${baseUrl_}${apiUrl_}changelog/`;
+const commentsUrl_: string = `${baseUrl_}${apiUrl_}comments/`;
+const eventsUrl_: string = `${baseUrl_}${apiUrl_}events/`;
+const forumUrl_: string = `${baseUrl_}${apiUrl_}forums/`;
+const homeUrl_: string = `${baseUrl_}${apiUrl_}search/`;
+const matchUrl_: string = `${baseUrl_}${apiUrl_}matches/`;
+const roomUrl_: string = `${baseUrl_}${apiUrl_}rooms/`;
+const newsUrl_: string = `${baseUrl_}${apiUrl_}news/`;
+const rankingsUrl_: string = `${baseUrl_}${apiUrl_}rankings/`;
+const spotlightsUrl_: string = `${baseUrl_}${apiUrl_}spotlights/`;
+const usersUrl_: string = `${baseUrl_}${apiUrl_}users/`;
+const wikiUrl_: string = `${baseUrl_}${apiUrl_}wiki/`;

@@ -20,8 +20,8 @@ const fetchData_ = (
     ContentType_.Json,
     access_token
   );
-  
-  payload !== undefined && (options.payload = JSON.stringify(payload))
+
+  (payload !== undefined && payload !== String.Empty) && (options.payload = JSON.stringify(payload));
 
   let response = tryFetch_(
     `${url}${query}`,
@@ -29,7 +29,7 @@ const fetchData_ = (
   );
 
   return response instanceof Error ? console.error(response) : JSON.parse(response.getContentText());
-}
+};
 
 /**
  * Http request

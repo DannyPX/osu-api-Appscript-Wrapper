@@ -12,26 +12,26 @@ Returns the top scores for a beatmap. Depending on user preferences, this may on
 
 ## Usage
 
-`api.getBeatmapScores(beatmapId, legacy_only, mode, token)`
+`api.getBeatmapScores(token, beatmap, legacy_only, mode, mods, type)`
 
 ### Parameters
 
-`beatmapId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`beatmap` <small>number</small><br>
 The ID of the beatmap.
 
-`legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`legacy_only` <small>number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to `0`.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
-`token` <small>String</small><br>
-Access Token.
+`mods` <small>number|string[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
+Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods. Defaults to no mods.
 
-`mods` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
-An array of matching Mods, or none
-
-`type` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`type` <small>string</small> <Badge type="tip" text="optional" /><br>
 Beatmap score ranking type
 
 ## Example

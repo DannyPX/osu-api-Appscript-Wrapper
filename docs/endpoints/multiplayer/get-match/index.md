@@ -12,21 +12,24 @@ Returns the match.
 
 ## Usage
 
-`api.getMatch(matchId, before, limit, token)`
+`api.getMatch(token, match, before, limit)`
 
 ### Parameters
 
-`matchId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token
+
+`match` <small>number</small><br>
 The ID of the match.
 
-`before` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`after` <small>number</small> <Badge type="tip" text="optional" /><br>
+Result after event `id`.
+
+`before` <small>number</small> <Badge type="tip" text="optional" /><br>
 Result before event `id`.
 
-`limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`limit` <small>number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
-
-`token` <small>String</small><br>
-Access Token
 
 ## Example
 

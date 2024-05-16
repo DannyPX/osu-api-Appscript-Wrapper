@@ -12,14 +12,13 @@ const getOptions_ = (
   contentType: string,
   access_token?: string,
   payload?: any
-) : HttpOptions_ => {
+): HttpOptions_ => {
   let options: HttpOptions_ = {
     method: method,
     contentType: contentType,
   };
-  //  { "Authorization": `Bearer ${access_token}`}
-  access_token !== undefined && (options.headers = { "Authorization": `Bearer ${access_token}`})
-  payload !== undefined && (options.payload = payload);
+  (access_token !== undefined && access_token !== String.Empty) && (options.headers = { "Authorization": `Bearer ${access_token}` });
+  (payload !== undefined && payload !== String.Empty) && (options.payload = payload);
 
   return options;
 };
@@ -31,13 +30,14 @@ const getOptions_ = (
  * @returns {string} Query string.
  */
 const queryBuilder_ = (
-  params: Array<HttpParameter_>
-) : string => {
-  var query: string;
+  params: HttpParameter_[]
+): string => {
+  var query: string = "";
   params.forEach(function (param: HttpParameter_) {
-    query = `${query}${returnPathParamOrEmpty_(param)}&`
+    query = `${query}${returnQueryParamOrEmpty_(param)}&`;
   });
-  return query
+
+  return query;
 };
 
 /**
@@ -46,10 +46,10 @@ const queryBuilder_ = (
  * @param {HttpParameter_} param Parameter.
  * @returns {string} Path parameter in string.
  */
-const returnPathParamOrEmpty_ = (
+const returnQueryParamOrEmpty_ = (
   param: HttpParameter_
-) : string => {
-  return param.value !== undefined ? param.key + "=" + param.value : String.Empty;
+): string => {
+  return (param.value !== undefined && param.value !== String.Empty) ? param.key + "=" + param.value : String.Empty;
 };
 
 /**
@@ -58,27 +58,33 @@ const returnPathParamOrEmpty_ = (
  * @param {string} param Parameter.
  * @returns {string} Query path in string.
  */
-const returnQueryParamOrEmpty_ = (
+const returnUrlParamOrEmpty_ = (
   param: string
-) : string => {
-  return param !== undefined ? `/${param}` : String.Empty
+): string => {
+  return (param !== undefined && param !== String.Empty) ? `/${param}` : String.Empty;
 };
 
 /**
  * Build parameter object.
  * @private
  * @param {string} key Key.
- * @param {string} value Path.
+ * @param {string=} value Path.
  * @returns {HttpParameter_}
  */
 const parseParam_ = (
   key: string,
-  value: string
-) : HttpParameter_ => {
-  let param : HttpParameter_ = {
+  value?: string | number | boolean | any[]
+): HttpParameter_ => {
+  let param: HttpParameter_ = {
     key: key,
     value: value
-  }
+  };
 
-  return param
+  return param;
+};
+
+const parseCursor_ = (
+  cursor_string: string
+) => {
+  return (cursor_string !== undefined && cursor_string !== String.Empty) ? `&${cursor_string}` : String.Empty
 }

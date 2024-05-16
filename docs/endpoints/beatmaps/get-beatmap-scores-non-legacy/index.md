@@ -12,24 +12,24 @@ Returns the top scores for a beatmap.
 
 ## Usage
 
-`api.getBeatmapScoresNonLegacy(beatmapId, mode, mods, type, token)`
+`api.getBeatmapScoresNonLegacy(token, beatmap, mode, mods, type)`
 
 ### Parameters
 
-`beatmapId` <small>String</small><br>
+`token` <small>string</small> <Badge type="tip" text="optional" /><br>
+Access Token.
+
+`beatmap` <small>number</small><br>
 The ID of the beatmap.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
-`mods` <small>Int|String[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
+`mods` <small>number|string[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
 Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods.
 
-`type` <small>String</small> <Badge type="tip" text="optional" /><br>
+`type` <small>string</small> <Badge type="tip" text="optional" /><br>
 Beatmap score ranking type.
-
-`token` <small>String</small> <Badge type="tip" text="optional" /><br>
-Access Token.
 
 ## Example
 

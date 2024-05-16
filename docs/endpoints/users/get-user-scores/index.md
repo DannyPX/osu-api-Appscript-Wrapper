@@ -12,33 +12,33 @@ This endpoint returns the scores of specified user.
 
 ## Usage
 
-`api.getUserScores(userId, score_type, legacy_only, include_fails, mode, limit, offset, token)`
+`api.getUserScores(token, user, score_type, legacy_only, include_fails, mode, limit, offset)`
 
 ### Parameters
 
-`userId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`user` <small>number</small><br>
 The ID of an user.
 
-`score_type` <small>[ScoreType](../../types/score-type)</small><br>
+`type` <small>[ScoreType](../../types/score-type)</small><br>
 Score type. Must be one of these: `Best`, `Dirsts`, `Recent`.
 
-`legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`legacy_only` <small>number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to 0.
 
-`include_fails` <small>Boolean</small> <Badge type="tip" text="optional" /><br>
+`include_fails` <small>boolean</small> <Badge type="tip" text="optional" /><br>
 Only for recent scores, include scores of failed plays. Set to 1 to include them. Defaults to 0.
 
-`mode` <small>[Ruleest](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
+`mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 Ruleset of the scores to be returned. Defaults to the specified user's mode.
 
-`limit` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`limit` <small>number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
-`offset` <small>String</small> <Badge type="tip" text="optional" /><br>
+`offset` <small>number</small> <Badge type="tip" text="optional" /><br>
 Result offset for pagination.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 

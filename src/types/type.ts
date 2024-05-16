@@ -7,10 +7,10 @@ interface HttpOptions_ {
 
 interface HttpParameter_ {
   key: string;
-  value?: string;
+  value?: string | number | boolean | any[];
 }
 
-interface StringConstructor { 
+interface StringConstructor {
   Empty: string;
 }
 

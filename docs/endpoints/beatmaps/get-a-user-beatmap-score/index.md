@@ -12,27 +12,27 @@ Return a User's score on a Beatmap
 
 ## Usage
 
-`api.getUserBeatmapScore(userId, beatmapId, legacy_only, mode, token)`
+`api.getUserBeatmapScore(token, user, beatmap, legacy_only, mode, mods)`
 
 ### Parameters
 
-`userId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`user` <small>number</small><br>
 The ID of the user.
 
-`beatmapId` <small>String</small><br>
+`beatmap` <small>number</small><br>
 The ID of the beatmap.
 
-`legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`legacy_only` <small>number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to 0.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
-`token` <small>String</small><br>
-Access Token.
-
-`mods` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
-An array of matching Mods, or none
+`mods` <small>number|string[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
+Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods. Defaults to no mods.
 
 ## Example
 

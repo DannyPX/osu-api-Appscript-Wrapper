@@ -12,26 +12,29 @@ Get topic and its posts.
 
 ## Usage
 
-`api.getTopicAndPosts(sort, limit, start, end, token)`
+`api.getTopicAndPosts(token, topic, sort, limit, start, end, cursor_string)`
 
 ### Parameters
+
+`token` <small>string</small><br>
+Access Token.
+
+`topic` <small>number</small>
+The ID of the topic.
 
 `sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Ascending`.
 
-`token` <small>String</small><br>
-Access Token.
-
-`limit` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`limit` <small>number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of posts to be returned (20 default, 50 at most).
 
-`start` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`start` <small>number</small> <Badge type="tip" text="optional" /><br>
 First post id to be returned with `sort` set to `Ascending`. This parameter is ignored if `cursor_string` is specified.
 
-`end` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`end` <small>number</small> <Badge type="tip" text="optional" /><br>
 First post id to be returned with `sort` set to `Descending`. This parameter is ignored if `cursor_string` is specified.
 
-`cursor_string` <small>String</small> <Badge type="tip" text="optional" /> <Badge type="danger" text="not implemented" /><br>
+`cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>
 CursorString for pagination.
 
 ## Example

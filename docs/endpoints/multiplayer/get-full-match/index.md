@@ -14,15 +14,15 @@ This is not an official endpoint on the osu!api.
 
 ## Usage
 
-`api.getFullMatch(matchId, token)`
+`api.getFullMatch(token, match)`
 
 ### Parameters
 
-`matchId` <small>String</small><br>
-The ID of the match.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token
+
+`match` <small>number</small><br>
+The ID of the match.
 
 ## Example
 

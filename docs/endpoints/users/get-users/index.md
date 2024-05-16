@@ -12,15 +12,15 @@ Returns list of users.
 
 ## Usage
 
-`api.getUsers(ids, token)`
+`api.getUsers(token, ids)`
 
 ### Parameters
 
-`ids` <small>Number[]</small><br>
-User ID to be returned. Specify once for each user id requested. Up to 50 users can be requested at once. Example `[1, 2]`.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`ids` <small>number[]</small><br>
+User ID to be returned. Up to 50 users can be requested at once.
 
 ## Example
 

@@ -12,15 +12,15 @@ Returns the room.
 
 ## Usage
 
-`api.getRoom(roomId, token)`
+`api.getRoom(token, room)`
 
 ### Parameters
 
-`roomId` <small>String</small><br>
-The ID of the room.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`room` <small>number</small><br>
+The ID of the room.
 
 ## Example
 

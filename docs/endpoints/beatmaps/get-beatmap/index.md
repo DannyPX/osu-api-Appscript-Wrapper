@@ -12,15 +12,15 @@ Gets beatmap data for the specified beatmap ID.
 
 ## Usage
 
-`api.getBeatmap(beatmapId, token)`
+`api.getBeatmap(token, beatmap)`
 
 ### Parameters
 
-`beatmapId` <small>String</small><br>
-The ID of the beatmap.
-
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
+
+`beatmap` <small>number</small><br>
+The ID of the beatmap.
 
 ## Example
 

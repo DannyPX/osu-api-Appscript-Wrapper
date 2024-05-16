@@ -12,18 +12,18 @@ Gets the beatmap pack for the specified beatmap pack tag.
 
 ## Usage
 
-`api.getBeatmapPack(pack, legacy_only, token)`
+`api.getBeatmapPack(token, pack, legacy_only)`
 
 ### Parameters
 
-`pack` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`pack` <small>string</small><br>
 The tag of the beatmap pack to be returned.
 
-`legacy_only` <small>Number</small> <Badge type="tip" text="optional" /><br>
+`legacy_only` <small>number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to consider lazer scores for user completion data. Defaults to `0`.
-
-`token` <small>String</small><br>
-Access Token.
 
 ## Example
 

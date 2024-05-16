@@ -16,7 +16,7 @@ Lookup Beatmapsets
 
 ### Parameters
 
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
 
 ## Example

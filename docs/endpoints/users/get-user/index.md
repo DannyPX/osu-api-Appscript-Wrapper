@@ -12,21 +12,21 @@ This endpoint returns the detail of specified user.
 
 ## Usage
 
-`api.getUser(userId, mode, key, token)`
+`api.getUser(token, user, mode, key)`
 
 ### Parameters
 
-`userId` <small>String</small><br>
+`token` <small>string</small><br>
+Access Token.
+
+`user` <small>number</small><br>
 The ID of the user.
 
 `mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
 Ruleset. User default mode will be used if not specified.
 
-`key` <small>String</small> <Badge type="tip" text="optional" /><br>
+`key` <small>string</small> <Badge type="tip" text="optional" /><br>
 Type of `user` passed in url parameter. Can be either `id` or `username` to limit lookup by their respective type. Passing empty or invalid value will result in id lookup followed by username lookup if not found.
-
-`token` <small>String</small><br>
-Access Token.
 
 ::: tip INFO
 It's highly recommended to pass key parameter to avoid getting unexpected result (mainly when looking up user with numeric username or nonexistent user id).

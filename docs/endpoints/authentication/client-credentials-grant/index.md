@@ -28,6 +28,10 @@ This must always be `client_credentials`.
 `scope` <small>[Scope](../../types/scope)</small><br>
 Must be `Public`; other scopes have no meaningful effect.
 
+## Response Format
+
+<!--@include: ./response.md-->
+
 ## Example
 
 ### Code
@@ -35,7 +39,3 @@ Must be `Public`; other scopes have no meaningful effect.
 
 ### Output
 <<< ./output.json
-
-## Response Format
-
-<!--@include: ./response.md-->

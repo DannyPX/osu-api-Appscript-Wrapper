@@ -16,7 +16,7 @@ Gets the list of spotlights.
 
 ### Parameters
 
-`token` <small>String</small><br>
+`token` <small>string</small><br>
 Access Token.
 
 ## Example
