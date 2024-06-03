@@ -12,7 +12,7 @@ Gets the current ranking for the specified type and game mode.
 
 ## Usage
 
-`api.getRanking(token, mode, type, country, filter, spotlight, variant, page)`
+`api.getRanking(token, mode, type, country, cursor, filter, spotlight, variant)`
 
 ### Parameters
 

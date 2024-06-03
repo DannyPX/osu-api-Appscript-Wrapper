@@ -12,7 +12,7 @@ This endpoint returns the scores of specified user.
 
 ## Usage
 
-`api.getUserScores(token, user, score_type, legacy_only, include_fails, mode, limit, offset)`
+`api.getUserScores(token, user, type, legacy_only, include_fails, mode, limit, offset)`
 
 ### Parameters
 
