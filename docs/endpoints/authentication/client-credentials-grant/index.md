@@ -12,7 +12,7 @@ The client credential flow provides a way for developers to get access tokens th
 
 ## Usage
 
-`api.ClientCredentialsGrant(client_id, client_secret)`
+`api.ClientCredentialsGrant(client_id, client_secret, grant_type, scope)`
 
 ### Parameters
 

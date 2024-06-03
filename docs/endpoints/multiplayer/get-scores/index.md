@@ -12,7 +12,7 @@ Returns a list of scores for specified playlist item.
 
 ## Usage
 
-`api.getScores(token, room, playlist, limit, sort)`
+`api.getScores(token, room, playlist, limit, sort, cursor_string)`
 
 ### Parameters
 

@@ -12,7 +12,7 @@ Returns the match.
 
 ## Usage
 
-`api.getMatch(token, match, before, limit)`
+`api.getMatch(token, match, after, before, limit)`
 
 ### Parameters
 
