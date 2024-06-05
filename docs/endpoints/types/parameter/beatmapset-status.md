@@ -32,4 +32,4 @@ console.log(BeatmapsetStatus.Ranked) // ranked
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

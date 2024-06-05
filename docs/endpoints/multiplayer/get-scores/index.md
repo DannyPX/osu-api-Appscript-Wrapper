@@ -28,7 +28,7 @@ The ID of the playlist item.
 `limit` <small>number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
-`sort` <small>[MultiplayerScoresSort](../../types/multiplayer-scores-sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[MultiplayerScoresSort](../../types/parameter/multiplayer-scores-sort)</small> <Badge type="tip" text="optional" /><br>
 Sort option for multiplayer scores index.
 
 `cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>

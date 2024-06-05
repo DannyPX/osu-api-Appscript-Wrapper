@@ -25,13 +25,13 @@ The ID of the Beatmap.
 `beatmapset_id` <small>number</small> <Badge type="tip" text="optional" /><br>
 The ID of the Beatmapset.
 
-`beatmapset_status` <small>[BeatmapsetStatus](../../types/beatmapset-status)</small> <Badge type="tip" text="optional" /><br>
+`beatmapset_status` <small>[BeatmapsetStatus](../../types/parameter/beatmapset-status)</small> <Badge type="tip" text="optional" /><br>
 One of `All`, `Ranked`, `Qualified`, `Disqualified`, `NeverQualified`. Defaults to `All`.
 
 `limit` <small>number</small> <Badge type="tip" text="optional" /><br>
 Maximum number of results.
 
-`message_types` <small>[MessageTypes](../../types/message-types)[]</small> <Badge type="tip" text="optional" /><br>
+`message_types` <small>[MessageTypes](../../types/parameter/message-types)[]</small> <Badge type="tip" text="optional" /><br>
 `Suggestion`, `Problem`, `MapperNote`, `Praise`, `Hype`, `Review`. Blank defaults to all types.
 
 `only_unresolved` <small>boolean</small> <Badge type="tip" text="optional" /><br>
@@ -40,7 +40,7 @@ Maximum number of results.
 `page` <small>number</small> <Badge type="tip" text="optional" /><br>
 Search result page.
 
-`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/parameter/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
 
 `user` <small>number</small> <Badge type="tip" text="optional" /><br>

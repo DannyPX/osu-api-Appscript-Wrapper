@@ -28,10 +28,10 @@ The ID of the beatmap.
 `legacy_only` <small>number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to exclude lazer scores. Defaults to 0.
 
-`mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
+`mode` <small>[Ruleset](../../types/parameter/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
-`mods` <small>number|string[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
+`mods` <small>number|string[]|[Mod](../../types/parameter/mod)[]</small> <Badge type="tip" text="optional" /><br>
 Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods. Defaults to no mods.
 
 ## Example

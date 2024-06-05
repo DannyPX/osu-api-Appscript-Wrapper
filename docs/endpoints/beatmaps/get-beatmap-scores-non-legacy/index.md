@@ -22,10 +22,10 @@ Access Token.
 `beatmap` <small>number</small><br>
 The ID of the beatmap.
 
-`mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
+`mode` <small>[Ruleset](../../types/parameter/ruleset)</small> <Badge type="tip" text="optional" /><br>
 The **Ruleset** to get scores for.
 
-`mods` <small>number|string[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
+`mods` <small>number|string[]|[Mod](../../types/parameter/mod)[]</small> <Badge type="tip" text="optional" /><br>
 Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods.
 
 `type` <small>string</small> <Badge type="tip" text="optional" /><br>

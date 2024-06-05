@@ -21,10 +21,10 @@ This is not an official endpoint on the osu!api.
 `token` <small>string</small><br>
 Access Token.
 
-`mode` <small>[Ruleset](../../types/ruleset)</small><br>
+`mode` <small>[Ruleset](../../types/parameter/ruleset)</small><br>
 The **Ruleset** to get scores for.
 
-`type` <small>[RankingType](../../types/ranking-type)</small><br>
+`type` <small>[RankingType](../../types/parameter/ranking-type)</small><br>
 Different ranking types.
 
 `country` <small>string</small> <Badge type="tip" text="optional" /><br>

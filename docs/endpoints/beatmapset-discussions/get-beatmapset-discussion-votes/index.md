@@ -31,10 +31,10 @@ Search result page.
 `receiver` <small>number</small> <Badge type="tip" text="optional" /><br>
 The ID of the User receiving the votes.
 
-`score` <small>[DiscussionScore](../../types/discussion-score)</small> <Badge type="tip" text="optional" /><br>
+`score` <small>[DiscussionScore](../../types/parameter/discussion-score)</small> <Badge type="tip" text="optional" /><br>
 `Up` for up vote and `Down` for down vote.
 
-`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/parameter/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
 
 `user` <small>number</small> <Badge type="tip" text="optional" /><br>

@@ -26,4 +26,4 @@ console.log(DiscussionScore.Up) // 1
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

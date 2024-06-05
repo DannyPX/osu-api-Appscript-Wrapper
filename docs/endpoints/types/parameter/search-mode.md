@@ -28,4 +28,4 @@ console.log(SearchMode.WikiPage) // wiki_page
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

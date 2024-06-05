@@ -74,4 +74,4 @@ console.log(Mod.Hard_Rock) // HR
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)
