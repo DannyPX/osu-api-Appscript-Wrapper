@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import PrimeVue from 'primevue/config';
 
 export default defineConfig({
   title: "osu!api Apps Script",
@@ -10,6 +11,7 @@ export default defineConfig({
   ],
 
   base: "/osu-api-Appscript-Wrapper/",
+
   themeConfig: {
     search: {
       provider: 'local'
