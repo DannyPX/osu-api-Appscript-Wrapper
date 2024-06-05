@@ -19,11 +19,15 @@ Returns a list of beatmap packs.
 `token` <small>string</small><br>
 Access Token.
 
-`type` <small>[BeatmapPackType](../../types/beatmap-pack-type)</small> <Badge type="tip" text="optional" /><br> 
+`type` <small>[BeatmapPackType](../../types/parameter/beatmap-pack-type)</small> <Badge type="tip" text="optional" /><br> 
 **BeatmapPackType** of the beatmap packs to be returned. Defaults to `standard`.
 
 `cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>
 [CursorString](https://osu.ppy.sh/docs/index.html#cursorstring) for pagination.
+
+## Response Format
+
+<!--@include: ./response.md-->
 
 ## Example
 
@@ -32,7 +36,3 @@ Access Token.
 
 ### Output
 <<< ./output.json
-
-## Response Format
-
-<!--@include: ./response.md-->

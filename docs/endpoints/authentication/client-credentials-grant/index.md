@@ -25,7 +25,7 @@ The client secret of your application.
 `grant_type` <small>string</small><br>
 This must always be `client_credentials`.
 
-`scope` <small>[Scope](../../types/scope)</small><br>
+`scope` <small>[Scope](../../types/parameter/scope)</small><br>
 Must be `Public`; other scopes have no meaningful effect.
 
 ## Response Format

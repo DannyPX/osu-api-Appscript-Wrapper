@@ -19,7 +19,7 @@ Searches users and wiki pages.
 `token` <small>string</small><br>
 Access Token.
 
-`mode` <small>[SearchMode](../../types/search-mode)</small> <Badge type="tip" text="optional" /><br>
+`mode` <small>[SearchMode](../../types/parameter/search-mode)</small> <Badge type="tip" text="optional" /><br>
 Either `All`, `User`, or `WikiPage`. Default is `All`.
 
 `query` <small>string</small> <Badge type="tip" text="optional" /><br>

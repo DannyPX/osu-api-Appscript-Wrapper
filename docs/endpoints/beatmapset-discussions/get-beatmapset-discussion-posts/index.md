@@ -28,10 +28,10 @@ Maximum number of results.
 `page` <small>number</small> <Badge type="tip" text="optional" /><br>
 Search result page.
 
-`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/parameter/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
 
-`types` <small>[DiscussionTypes](../../types/discussion-types)[]</small> <Badge type="tip" text="optional" /><br>
+`types` <small>[DiscussionTypes](../../types/parameter/discussion-types)[]</small> <Badge type="tip" text="optional" /><br>
 `First`, `Reply`, `System` are the valid values. Defaults to `Reply`.
 
 `user` <small>number</small> <Badge type="tip" text="optional" /><br>

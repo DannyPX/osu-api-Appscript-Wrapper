@@ -22,7 +22,7 @@ Access Token.
 `user` <small>number</small><br>
 The ID of the user.
 
-`mode` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
+`mode` <small>[Ruleset](../../types/parameter/ruleset)</small> <Badge type="tip" text="optional" /><br>
 Ruleset. User default mode will be used if not specified.
 
 `key` <small>string</small> <Badge type="tip" text="optional" /><br>

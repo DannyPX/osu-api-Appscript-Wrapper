@@ -22,10 +22,10 @@ Access Token.
 `beatmap` <small>number</small><br>
 The ID of the beatmap.
 
-`mods` <small>number|string[]|[Mod](../../types/mod)[]</small> <Badge type="tip" text="optional" /><br>
+`mods` <small>number|string[]|[Mod](../../types/parameter/mod)[]</small> <Badge type="tip" text="optional" /><br>
 Mod combination. Can be either a bitset of mods, array of mod acronyms, or array of mods.
 
-`ruleset` <small>[Ruleset](../../types/ruleset)</small> <Badge type="tip" text="optional" /><br>
+`ruleset` <small>[Ruleset](../../types/parameter/ruleset)</small> <Badge type="tip" text="optional" /><br>
 **Ruleset** of the difficulty attributes. Only valid if it's the beatmap ruleset or the beatmap can be converted to the specified ruleset. Defaults to ruleset of the specified beatmap.
 
 `ruleset_id` <small>number</small> <Badge type="tip" text="optional" /><br>

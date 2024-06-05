@@ -7,7 +7,7 @@ outline: deep
 ## Available beatmap types
 
 | Name          | Description |
-|---------------|-------------|
+| ------------- | ----------- |
 | `favourite`   | Favourite   |
 | `graveyard`   | Graveyard   |
 | `guest`       | Guest       |
@@ -38,4 +38,4 @@ console.log(BeatmapType.Favourite) // favourite
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

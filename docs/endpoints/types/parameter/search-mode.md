@@ -6,11 +6,11 @@ outline: deep
 
 ## Available searching modes.
 
-| Name          | Description |
-|---------------|-------------|
-| `all`         | All         |
-| `user`        | User        |
-| `wiki_page`   | Wiki Page   |
+| Name        | Description |
+| ----------- | ----------- |
+| `all`       | All         |
+| `user`      | User        |
+| `wiki_page` | Wiki Page   |
 
 ## Snippet
 
@@ -28,4 +28,4 @@ console.log(SearchMode.WikiPage) // wiki_page
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

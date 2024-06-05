@@ -6,11 +6,11 @@ outline: deep
 
 ## Available scoring types.
 
-| Name          | Description |
-|---------------|-------------|
-| `best`        | Best        |
-| `first`       | First       |
-| `recent`      | Recent      |
+| Name     | Description |
+| -------- | ----------- |
+| `best`   | Best        |
+| `first`  | First       |
+| `recent` | Recent      |
 
 ## Snippet
 
@@ -28,4 +28,4 @@ console.log(ScoreType.Best) // best
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)
