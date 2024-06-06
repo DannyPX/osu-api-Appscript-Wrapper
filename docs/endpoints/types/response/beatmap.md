@@ -29,7 +29,7 @@ Represent a beatmap.
 | `count_sliders`     | <small>number</small>                          |                                                                                                           |
 | `count_spinners`    | <small>number</small>                          |                                                                                                           |
 | `cs`                | <small>number</small>                          |                                                                                                           |
-| `deleted_at`        | <small>[Timestamp]?(./timestamp)</small>       |                                                                                                           |
+| `deleted_at`        | <small>[Timestamp](./timestamp)?</small>       |                                                                                                           |
 | `drain`             | <small>number</small>                          |                                                                                                           |
 | `hit_length`        | <small>number</small>                          |                                                                                                           |
 | `is_scoreable`      | <small>boolean</small>                         |                                                                                                           |
