@@ -10,7 +10,7 @@ outline: deep
 ## Wrapper V26 / Docs V1.1 <Badge type="warning" text="Beta" /> <Badge type="info" text="2024.514.0" />
 - Changed TypeScript transpiler version to ([`typescript@4.9.5`](https://www.npmjs.com/package/typescript/v/4.9.5)).
 - Fixed some documentation errors.
-- Added Response Types to every implemented endpoint in the documentation
+- Added Response Types to some implemented endpoint in the documentation
 
 ## Wrapper V26 / Docs V1.0 <Badge type="warning" text="Beta" /> <Badge type="info" text="2024.514.0" /> 
 - <span style="font-size:1.5em;">:tada: Added Documentation!</span>
