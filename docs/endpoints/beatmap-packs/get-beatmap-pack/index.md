@@ -25,6 +25,10 @@ The tag of the beatmap pack to be returned.
 `legacy_only` <small>number</small> <Badge type="tip" text="optional" /><br>
 Whether or not to consider lazer scores for user completion data. Defaults to `0`.
 
+## Response Format
+
+<!--@include: ./response.md-->
+
 ## Example
 
 ### Code
@@ -32,7 +36,3 @@ Whether or not to consider lazer scores for user completion data. Defaults to `0
 
 ### Output
 <<< ./output.json
-
-## Response Format
-
-<!--@include: ./response.md-->

@@ -7,7 +7,7 @@ outline: deep
 ## Available discussion types
 
 | Name     | Description |
-|----------|-------------|
+| -------- | ----------- |
 | `first`  | First       |
 | `reply`  | Reply       |
 | `system` | System      |
@@ -28,4 +28,4 @@ console.log(DiscussionTypes.First) // first
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

@@ -38,4 +38,4 @@ console.log(Scope.ChatRead) // chat.read
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

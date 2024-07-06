@@ -22,7 +22,7 @@ Access Token.
 `topic` <small>number</small>
 The ID of the topic.
 
-`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/parameter/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Ascending`.
 
 `limit` <small>number</small> <Badge type="tip" text="optional" /><br>

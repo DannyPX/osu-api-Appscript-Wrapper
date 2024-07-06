@@ -7,7 +7,7 @@ outline: deep
 ## Available types
 
 | Header 1 | Header 2 |
-|----------|----------|
+| -------- | -------- |
 | Key      | Value    |
 
 ## Snippet

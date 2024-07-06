@@ -7,7 +7,7 @@ outline: deep
 ## Available beatmap pack types
 
 | Name         | Tag | Description     |
-|--------------|-----|-----------------|
+| ------------ | --- | --------------- |
 | `standard`   | S   | Standard        |
 | `featured`   | F   | Featured Artist |
 | `tournament` | P   | Tournament      |
@@ -36,4 +36,4 @@ console.log(BeatmapPackType.Tournament) // tournament
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

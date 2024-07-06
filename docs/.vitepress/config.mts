@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   title: "osu!api Apps Script",
@@ -30,7 +30,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/endpoints/' },
       { text: 'Snippets', link: '/snippets/' },
-      { text: 'V26', items: [{ text: 'Changelog', link: '/endpoints/changelog' }]}
+      { text: 'V27', items: [{ text: 'Changelog', link: '/endpoints/changelog' }] }
     ],
 
     sidebar: {
@@ -338,66 +338,75 @@ export default defineConfig({
           collapsed: true,
           items: [
             {
-              text: 'Types',
+              text: 'Parameter Types',
               collapsed: true,
               items: [
                 {
                   text: 'BeatmapPackType',
-                  link: '/endpoints/types/beatmap-pack-type'
+                  link: '/endpoints/types/parameter/beatmap-pack-type'
                 },
                 {
                   text: 'BeatmapType',
-                  link: '/endpoints/types/beatmap-type'
+                  link: '/endpoints/types/parameter/beatmap-type'
                 },
                 {
                   text: 'BeatmapsetStatus',
-                  link: '/endpoints/types/beatmapset-status'
+                  link: '/endpoints/types/parameter/beatmapset-status'
                 },
                 {
                   text: 'DiscussionScore',
-                  link: '/endpoints/types/discussion-score'
+                  link: '/endpoints/types/parameter/discussion-score'
                 },
                 {
                   text: 'DiscussionTypes',
-                  link: '/endpoints/types/discussion-types'
+                  link: '/endpoints/types/parameter/discussion-types'
                 },
                 {
                   text: 'MessageTypes',
-                  link: '/endpoints/types/message-types'
+                  link: '/endpoints/types/parameter/message-types'
                 },
                 {
                   text: 'Mod',
-                  link: '/endpoints/types/mod'
+                  link: '/endpoints/types/parameter/mod'
                 },
                 {
                   text: 'MultiplayerScoresSort',
-                  link: '/endpoints/types/multiplayer-scores-sort'
+                  link: '/endpoints/types/parameter/multiplayer-scores-sort'
                 },
                 {
                   text: 'RankingType',
-                  link: '/endpoints/types/ranking-type'
+                  link: '/endpoints/types/parameter/ranking-type'
                 },
                 {
                   text: 'Ruleset',
-                  link: '/endpoints/types/ruleset'
+                  link: '/endpoints/types/parameter/ruleset'
                 },
                 {
                   text: 'Scope',
-                  link: '/endpoints/types/scope'
+                  link: '/endpoints/types/parameter/scope'
                 },
                 {
                   text: 'ScoreType',
-                  link: '/endpoints/types/score-type'
+                  link: '/endpoints/types/parameter/score-type'
                 },
                 {
                   text: 'SearchMode',
-                  link: '/endpoints/types/search-mode'
+                  link: '/endpoints/types/parameter/search-mode'
                 },
                 {
                   text: 'Sort',
-                  link: '/endpoints/types/sort'
+                  link: '/endpoints/types/parameter/sort'
                 },
+                {
+                  text: 'RankStatus',
+                  link: '/endpoints/types/parameter/rank-status'
+                }
               ]
+            },
+            {
+              text: 'Reponse Types',
+              collapsed: true,
+              items: []
             }
           ]
         }
@@ -428,4 +437,4 @@ export default defineConfig({
       message: '<b>osu!api v2 Wrapper</b> is not affiliated, associated, authorized, endorsed by, or in any way officially connected with <a href="https://osu.ppy.sh/">osu!</a><br /><i>Made by DannyPX</i>'
     }
   }
-})
+});
