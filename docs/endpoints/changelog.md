@@ -4,6 +4,9 @@ outline: deep
 
 # Changelog
 
+## Wrapper V27 / Docs V1.1 <Badge type="warning" text="Beta" /> <Badge type="info" text="2024.514.0" />
+- Fixed `getFullMatch`
+
 ## Wrapper V26 / Docs V1.1 <Badge type="warning" text="Beta" /> <Badge type="info" text="2024.514.0" />
 - Changed TypeScript transpiler version to ([`typescript@4.9.5`](https://www.npmjs.com/package/typescript/v/4.9.5)).
 - Fixed some documentation errors.
