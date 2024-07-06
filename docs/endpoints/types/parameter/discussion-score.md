@@ -6,10 +6,10 @@ outline: deep
 
 ## Available discussion score voting options
 
-| Name     | Description |
-|----------|-------------|
-| `1`      | Up          |
-| `-1`     | Down        |
+| Name | Description |
+| ---- | ----------- |
+| `1`  | Up          |
+| `-1` | Down        |
 
 ## Snippet
 
@@ -26,4 +26,4 @@ console.log(DiscussionScore.Up) // 1
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

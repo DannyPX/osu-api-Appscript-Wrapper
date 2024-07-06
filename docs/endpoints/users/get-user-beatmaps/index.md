@@ -22,7 +22,7 @@ Access Token.
 `user` <small>number</small><br>
 The ID of the user.
 
-`type` <small>[BeatmapType](../../types/beatmap-type)</small><br>
+`type` <small>[BeatmapType](../../types/parameter/beatmap-type)</small><br>
 Beatmap type.
 
 `limit` <small>Number</small> <Badge type="tip" text="optional" /><br>

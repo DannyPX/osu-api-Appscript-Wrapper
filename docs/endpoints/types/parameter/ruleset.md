@@ -7,7 +7,7 @@ outline: deep
 ## Available rulesets
 
 | Name     | Description  |
-|----------|--------------|
+| -------- | ------------ |
 | `fruits` | osu!catch    |
 | `mania`  | osu!mania    |
 | `osu`    | osu!standard |
@@ -30,4 +30,4 @@ console.log(Ruleset.Standard) // osu
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

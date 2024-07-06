@@ -28,6 +28,10 @@ A filename to lookup.
 `beatmap` <small>number</small> <Badge type="tip" text="optional" /><br>
 A beatmap ID to lookup.
 
+## Response Format
+
+<!--@include: ./response.md-->
+
 ## Example
 
 ### Code
@@ -35,7 +39,3 @@ A beatmap ID to lookup.
 
 ### Output
 <<< ./output.json
-
-## Response Format
-
-<!--@include: ./response.md-->

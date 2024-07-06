@@ -7,7 +7,7 @@ outline: deep
 ## Available discussion sort methods
 
 | Name      | Description |
-|-----------|-------------|
+| --------- | ----------- |
 | `id_desc` | Descending  |
 | `id_asc`  | Ascending   |
 
@@ -26,4 +26,4 @@ console.log(DiscussionSort.Descending) // id_desc
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

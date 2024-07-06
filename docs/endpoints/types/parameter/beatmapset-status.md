@@ -7,7 +7,7 @@ outline: deep
 ## Available beatmapset statuses
 
 | Name              | Description     |
-|-------------------|-----------------|
+| ----------------- | --------------- |
 | `all`             | All             |
 | `ranked`          | Ranked          |
 | `qualified`       | Qualified       |
@@ -32,4 +32,4 @@ console.log(BeatmapsetStatus.Ranked) // ranked
 ```
 
 :::
-Can also be found in [Snippets/Types.gs](../../snippets/snippets/types)
+Can also be found in [Snippets/Types.gs](../../../snippets/snippets/types)

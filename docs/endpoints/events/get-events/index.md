@@ -19,7 +19,7 @@ Returns a collection of Events in order of creation time.
 `token` <small>string</small><br>
 Access Token.
 
-`sort` <small>[Sort](../../types/sort)</small> <Badge type="tip" text="optional" /><br>
+`sort` <small>[Sort](../../types/parameter/sort)</small> <Badge type="tip" text="optional" /><br>
 `Descending` for newest first; `Ascending` for oldest first. Defaults to `Descending`.
 
 `cursor_string` <small>string</small> <Badge type="tip" text="optional" /><br>

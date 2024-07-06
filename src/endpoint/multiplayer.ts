@@ -107,7 +107,7 @@ const getAllEvents_ = (
   let firstevent = new Date(response.events[0].timestamp);
 
   if (matchCreationTimestamp < firstevent) {
-    let newResponse = getMatch(token, match, response.events[0].id, undefined, 100);
+    let newResponse = getMatch(token, match, undefined, response.events[0].id, 100);
     newResponse = getAllEvents_(newResponse, match, token);
     response.events.unshift(...newResponse.events);
   }
