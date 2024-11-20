@@ -126,9 +126,9 @@ const getUserRecentActivity = (
  * https://dannypx.github.io/osu-api-Appscript-Wrapper/endpoints/users/get-user/
  * @public
  * @param {string} token `token` Access Token.
- * @param {number} user `user` The ID of the user.
+ * @param {number} user `user` Id or @-prefixed username of the user. Previous usernames are also checked in some cases.
  * @param {Ruleset=} mode `mode?` Ruleset. User default mode will be used if not specified.
- * @param {string=} key `key?` Type of `user` passed in url parameter. Can be either `id` or `username` to limit lookup by their respective type. Passing empty or invalid value will result in id lookup followed by username lookup if not found.
+ * @param {string=} key `key?` Type of `user` passed in url parameter. Can be either `id` or `username` to limit lookup by their respective type. Passing empty or invalid value will result in id lookup followed by username lookup if not found. This parameter has been deprecated. Prefix `user` parameter with `@` instead to lookup by username.
  * @returns 
  */
 const getUser = (
