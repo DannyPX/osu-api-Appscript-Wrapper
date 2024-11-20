@@ -20,17 +20,13 @@ This endpoint returns the detail of specified user.
 Access Token.
 
 `user` <small>number</small><br>
-The ID of the user.
+Id or @-prefixed username of the user. Previous usernames are also checked in some cases.
 
 `mode` <small>[Ruleset](../../types/parameter/ruleset)</small> <Badge type="tip" text="optional" /><br>
 Ruleset. User default mode will be used if not specified.
 
 `key` <small>string</small> <Badge type="tip" text="optional" /><br>
-Type of `user` passed in url parameter. Can be either `id` or `username` to limit lookup by their respective type. Passing empty or invalid value will result in id lookup followed by username lookup if not found.
-
-::: tip INFO
-It's highly recommended to pass key parameter to avoid getting unexpected result (mainly when looking up user with numeric username or nonexistent user id).
-:::
+Type of `user` passed in url parameter. Can be either `id` or `username` to limit lookup by their respective type. Passing empty or invalid value will result in id lookup followed by username lookup if not found. This parameter has been deprecated. Prefix `user` parameter with `@` instead to lookup by username.
 
 ## Example
 

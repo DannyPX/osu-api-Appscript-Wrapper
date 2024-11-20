@@ -4,6 +4,9 @@ outline: deep
 
 # Changelog
 
+## Wrapper V28 / Docs V1.1 <Badge type="tip" text="Stable" /> <Badge type="info" text="22024.1115.0" />
+- <Badge type="danger" text="Breaking Change" /> `key` parameter for Get User endpoint has been deprecated. Prefix username with `@` to lookup by username instead. See: https://osu.ppy.sh/docs/index.html#breaking-changes
+
 ## Wrapper V27 / Docs V1.1 <Badge type="warning" text="Beta" /> <Badge type="info" text="2024.514.0" />
 - Fixed `getFullMatch`
 
