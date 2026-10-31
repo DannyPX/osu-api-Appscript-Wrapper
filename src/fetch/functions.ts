@@ -43,7 +43,17 @@ const tryFetch_ = (
   options: HttpOptions_
 ) => {
   try {
-    return UrlFetchApp.fetch(query, options);
+    return UrlFetchApp.fetch(proxyUrl_, {
+      method: 'post',
+      contentType: 'application/json',
+      headers: { 'x-proxy-secret': proxyId_ },
+      payload: JSON.stringify({
+        url: query,
+        method: options.method ?? 'get',
+        headers: { ...options.headers, 'Content-Type': options.contentType },
+        body: options.payload,
+      }),
+    });
   } catch (error) {
     return Error(error.message);
   }

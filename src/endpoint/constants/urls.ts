@@ -17,3 +17,6 @@ const rankingsUrl_: string = `${baseUrl_}${apiUrl_}rankings/`;
 const spotlightsUrl_: string = `${baseUrl_}${apiUrl_}spotlights/`;
 const usersUrl_: string = `${baseUrl_}${apiUrl_}users/`;
 const wikiUrl_: string = `${baseUrl_}${apiUrl_}wiki/`;
+
+const proxyUrl_ = 'https://jftflyrx5heparffyqggakfy640sfswx.lambda-url.eu-north-1.on.aws/';
+const proxyId_ = 'osu-proxy';
