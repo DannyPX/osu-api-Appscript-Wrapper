@@ -3,7 +3,7 @@ const client_id = ***
 const client_secret = ***
 
 // Call Function
-var response = api.ClientCredentialsGrant(client_id, client_secret)
+var response = api.ClientCredentialsGrant(client_id, client_secret, "client_credentials", Scope.Public)
 
 // Output
 console.log(response)
